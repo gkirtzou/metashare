@@ -1,0 +1,2260 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/net/def/metashare#"
+     xml:base="http://purl.org/net/def/metashare"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:odrl="http://www.w3.org/ns/odrl/2/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://purl.org/net/def/metashare">
+        <terms:creator rdf:resource="http://john.mccr.ae/"/>
+        <terms:creator>John P. McCrae</terms:creator>
+        <terms:creator>Jorge Gracia</terms:creator>
+        <terms:creator>Marta Villegas</terms:creator>
+        <terms:creator>Penny Labropoulou</terms:creator>
+        <terms:creator>Philipp Cimiano</terms:creator>
+        <terms:creator>Victor Rodriguez Doncel</terms:creator>
+        <terms:license rdf:resource="http://purl.org/NET/rdflicense/cc-by4.0"/>
+        <terms:modified>2015-03-20</terms:modified>
+        <vann:preferredNamespacePrefix>ms</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="http://purl.org/net/def/metashare#"/>
+        <rdfs:label xml:lang="en">Rights Information for Language Resources</rdfs:label>
+        <owl:priorVersion rdf:resource="http://lodserver.iula.upf.edu/Metashare/ontology/"/>
+        <owl:priorVersion rdf:resource="http://purl.org/ms-lod/MetaShareRights.ttl#"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/replaces -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/replaces"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broaderTransitive -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/action -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/action"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/constraint -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/constraint"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/duty -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/duty"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/operator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/operator"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/permission -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/permission"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/prohibition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/prohibition"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/purpose -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/purpose"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/recipient -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/odrl/2/recipient"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/net/def/metashare#corpusAudioInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#corpusAudioInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#corpusMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#corpusImageInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#corpusImageInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#corpusMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#corpusInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#corpusInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#corpusMediaPartInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#corpusMediaPartInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#mediaPartInfo"/>
+        <rdfs:domain rdf:resource="http://purl.org/net/def/metashare#CorpusInfo"/>
+        <rdfs:range rdf:resource="http://purl.org/net/def/metashare#CorpusMediaPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#corpusTextInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#corpusTextInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#corpusMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#corpusTextNgramInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#corpusTextNgramInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#corpusMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#corpusTextNumericalInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#corpusTextNumericalInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#corpusMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#corpusVideoInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#corpusVideoInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#corpusMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#distributionAccessMedium -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#distributionAccessMedium">
+        <rdfs:domain rdf:resource="http://purl.org/net/def/metashare#LanguageResource"/>
+        <rdfs:range rdf:resource="http://purl.org/net/def/metashare#DistributionAccessMedium"/>
+        <rdfs:comment xml:lang="en">Specifies the medium (channel) used for delivery or providing access to the resource</rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the medium (channel) used for delivery or providing access to the resource.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#languageDescriptionImageInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#languageDescriptionImageInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#languageDescriptionInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#languageDescriptionInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo">
+        <rdfs:domain rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionInfo"/>
+        <rdfs:range rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionMediaPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#languageDescriptionTextInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#languageDescriptionTextInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#languageDescriptionVideoInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#languageDescriptionVideoInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#lexicalConceptualResourceAudioInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#lexicalConceptualResourceAudioInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#lexicalConceptualResourceImageInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#lexicalConceptualResourceImageInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#lexicalConceptualResourceInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#lexicalConceptualResourceInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#mediaPartInfo"/>
+        <rdfs:domain rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+        <rdfs:range rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#lexicalConceptualResourceTextInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#lexicalConceptualResourceTextInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#lexicalConceptualResourceType -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#lexicalConceptualResourceType"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#lexicalConceptualResourceVideoInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#lexicalConceptualResourceVideoInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#lexicalConcepturalResourceType -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#lexicalConcepturalResourceType"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#licenseCategory -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#licenseCategory">
+        <rdfs:domain rdf:resource="http://purl.org/net/def/metashare#License"/>
+        <rdfs:range rdf:resource="http://purl.org/net/def/metashare#LicenseCategory"/>
+        <rdfs:comment xml:lang="en">A way of categorising licences into three main categories: PUB, ACA or RES, according to CLARIN recommendations (cf. https://kitwiki.csc.fi/twiki/bin/view/FinCLARIN/ClarinLC)</rdfs:comment>
+        <rdfs:label xml:lang="en">License Category</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#mediaPartInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#mediaPartInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#publications -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#publications">
+        <rdfs:domain rdf:resource="http://purl.org/net/def/metashare#Actor"/>
+        <rdfs:comment xml:lang="en">Takes publications from DBLP.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#toolServiceInfo -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#toolServiceInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#userManual -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/net/def/metashare#userManual">
+        <rdfs:domain rdf:resource="http://purl.org/net/def/metashare#LanguageResource"/>
+        <rdfs:range rdf:resource="http://purl.org/net/def/metashare#DocumentInfo"/>
+        <rdfs:comment xml:lang="en">Points to the User Manual.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/net/def/metashare#audioGenre -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#audioGenre">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#genre"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#authenticated -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#authenticated">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Specifies if the user has been identified/authenticated.</rdfs:comment>
+        <rdfs:label xml:lang="en">Authenticated</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#duration -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#duration"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#durationOfAudioInfo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#durationOfAudioInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#duration"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#durationOfAudioInfoUnit -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#durationOfAudioInfoUnit">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#durationUnit"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfo">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#duration"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfoUnit -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfoUnit">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#durationUnit"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#durationUnit -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#durationUnit"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#genre -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#genre">
+        <rdfs:domain rdf:resource="http://purl.org/net/def/metashare#ClassificationInfo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#imageGenre -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#imageGenre">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#genre"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#metadataSource -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#metadataSource">
+        <rdfs:domain rdf:resource="http://purl.org/net/def/metashare#LanguageResource"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment xml:lang="en">Refers to the catalogue or repository from which the metadata has been originated.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#speechGenre -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#speechGenre">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#genre"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#textGenre -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#textGenre">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#genre"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#videoGenre -->
+
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/net/def/metashare#videoGenre">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/net/def/metashare#genre"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/net/def/metashare#Actor -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#Actor"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#AnnotationType -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#AnnotationType"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#AudioClassificationInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#AudioClassificationInfo">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#ClassificationInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#ClassificationInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#ClassificationInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#ComputationalLexicon -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#ComputationalLexicon">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConcepturalResourceType"/>
+                <owl:hasValue rdf:resource="http://purl.org/net/def/metashare#computationalLexicon"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#ConditionsOfUse -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#ConditionsOfUse">
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#restrictionsOfUse"/>
+        <rdfs:comment xml:lang="en">The conditionsOfUse optional element in the metadata is only to be taken as providing brief human readable information on the fact that the LR is provided under a specific set of conditions. These correspond to the most frequently used conditions imposed by the licensor of the LR (via the specified licence). The proper exposition of all conditions and possible exceptions is to be found inside the licence text. LR depositors should, hence, carefully choose the values of this field to match the licence chosen and users should carefully read that licence before using the LR.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#Corpus -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#Corpus">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#corpusInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#CorpusInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LanguageResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusAudio -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusAudio">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#corpusAudioInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#CorpusAudioInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#CorpusMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusAudioInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusAudioInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusImage -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusImage">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#corpusImageInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#CorpusImageInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#CorpusMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusImageInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusImageInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusMediaPart -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusMediaPart">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#MediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusText -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusText">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#corpusTextInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#CorpusTextInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#CorpusMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusTextInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusTextInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusTextNgram -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusTextNgram">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#corpusTextNgramInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#CorpusTextNgramInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#CorpusMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusTextNgramInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusTextNgramInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusTextNumerical -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusTextNumerical">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#corpusTextNumericalInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#CorpusTextNumericalInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#CorpusMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusTextNumericalInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusTextNumericalInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusVideo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusVideo">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#corpusVideoInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#CorpusVideoInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#CorpusMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CorpusVideoInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#CorpusVideoInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#DiscourseAnnotation -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#DiscourseAnnotation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#AnnotationType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#DistributionAccessMedium -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#DistributionAccessMedium">
+        <rdfs:comment xml:lang="en">Specifies the medium (channel) used for delivery or providing access to the resource</rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the medium (channel) used for delivery or providing access to the resource.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#DocumentInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#DocumentInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#FrameNet -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#FrameNet">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConcepturalResourceType"/>
+                <owl:hasValue rdf:resource="http://purl.org/net/def/metashare#frameNet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#ImageClassificationInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#ImageClassificationInfo">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#ClassificationInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LanguageDescription -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LanguageDescription">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#languageDescriptionInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LanguageResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LanguageDescriptionImage -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LanguageDescriptionImage">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#languageDescriptionImageInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionImageInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionInfo"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LanguageDescriptionImageInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LanguageDescriptionImageInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LanguageDescriptionInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LanguageDescriptionInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LanguageDescriptionMediaPart -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LanguageDescriptionMediaPart">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#MediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LanguageDescriptionText -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LanguageDescriptionText">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#languageDescriptionTextInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionTextInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionInfo"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LanguageDescriptionTextInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LanguageDescriptionTextInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LanguageDescriptionVideo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LanguageDescriptionVideo">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#languageDescriptionVideoInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionVideoInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionInfo"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LanguageDescriptionMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LanguageDescriptionVideoInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LanguageDescriptionVideoInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LanguageResource -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LanguageResource">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#resourceInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LexicalConceptualResource -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LexicalConceptualResource">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConceptualResourceInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LanguageResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LexicalConceptualResourceAudio -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LexicalConceptualResourceAudio">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConceptualResourceAudioInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceAudioInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LexicalConceptualResourceAudioInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LexicalConceptualResourceAudioInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LexicalConceptualResourceImage -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LexicalConceptualResourceImage">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConceptualResourceImageInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceImageInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LexicalConceptualResourceImageInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LexicalConceptualResourceImageInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LexicalConceptualResourceInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#MediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LexicalConceptualResourceText -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LexicalConceptualResourceText">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConceptualResourceTextInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceTextInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LexicalConceptualResourceTextInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LexicalConceptualResourceTextInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LexicalConceptualResourceVideo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LexicalConceptualResourceVideo">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConceptualResourceVideoInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceVideoInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LexicalConceptualResourceVideoInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LexicalConceptualResourceVideoInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#Lexicon -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#Lexicon">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConcepturalResourceType"/>
+                <owl:hasValue rdf:resource="http://purl.org/net/def/metashare#lexicon"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#License -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#License"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#LicenseCategory -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#LicenseCategory">
+        <rdfs:comment xml:lang="en">A way of classifying licences according to their conditions of use (CLARIN recommendation)</rdfs:comment>
+        <rdfs:label xml:lang="en">License Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#MachineReadableDictionary -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#MachineReadableDictionary">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConcepturalResourceType"/>
+                <owl:hasValue rdf:resource="http://purl.org/net/def/metashare#machineReadableDictionary"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#MediaPart -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#MediaPart"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#ModalityAnnotation -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#ModalityAnnotation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#AnnotationType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#MorphosyntacticAnnotation -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#MorphosyntacticAnnotation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#AnnotationType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#Ontology -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#Ontology">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConcepturalResourceType"/>
+                <owl:hasValue rdf:resource="http://purl.org/net/def/metashare#ontology"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#SemanticAnnotation -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#SemanticAnnotation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#AnnotationType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#SpeechAnnotation -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#SpeechAnnotation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#AnnotationType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#SyntacticAnnotation -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#SyntacticAnnotation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#AnnotationType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#TerminologicalResource -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#TerminologicalResource">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConcepturalResourceType"/>
+                <owl:hasValue rdf:resource="http://purl.org/net/def/metashare#terminologicalResource"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#TextClassificationInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#TextClassificationInfo">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#ClassificationInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#Thesaurus -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#Thesaurus">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConcepturalResourceType"/>
+                <owl:hasValue rdf:resource="http://purl.org/net/def/metashare#thesaurus"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#ToolService -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#ToolService">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#toolServiceInfo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/net/def/metashare#ToolServiceInfo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LanguageResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#ToolServiceInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#ToolServiceInfo"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#UserNature -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#UserNature">
+        <rdfs:comment xml:lang="en">Identifies the type of user of the resource (e.g. affiliated with a commercial vs. academic institution, member of an organisation/network etc.); the user type may have implications on the licensing or pricing of a resource</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#VideoClassificationInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#VideoClassificationInfo">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#ClassificationInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#WordList -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#WordList">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConceptualResourceType"/>
+                <owl:hasValue rdf:resource="http://purl.org/net/def/metashare#wordList"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#WordNet -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#WordNet">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/net/def/metashare#lexicalConcepturalResourceType"/>
+                <owl:hasValue rdf:resource="http://purl.org/net/def/metashare#wordNet"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/def/metashare#mediaPartInfo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#mediaPartInfo -->
+
+
+    <owl:Class rdf:about="http://purl.org/net/def/metashare#mediaPartInfo"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#concept"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Dataset -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Dataset"/>
+    
+
+
+    <!-- http://www.w3.org/ns/odrl/2/Set -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/odrl/2/Set"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/net/def/speechAnnotation-soundToTextAlignment -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/speechAnnotation-soundToTextAlignment">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SpeechAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#CD-ROM -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#CD-ROM">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DistributionAccessMedium"/>
+        <rdfs:comment xml:lang="en">CD-ROM refers to a kind of distribution/access medium used for delivering a language resource; intended for resources delivered on CD-ROM</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#DVD-R -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#DVD-R">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DistributionAccessMedium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#academic-nonCommercialUse -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#academic-nonCommercialUse">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Set"/>
+        <odrl:permission>
+            <rdf:Description>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid28">
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:purpose rdf:resource="http://purl.org/net/def/metashare#academic"/>
+                    </rdf:Description>
+                </odrl:constraint>
+            </rdf:Description>
+        </odrl:permission>
+        <odrl:prohibition>
+            <rdf:Description rdf:nodeID="genid29">
+                <odrl:action rdf:resource="http://creativecommons.org/ns#CommericalUse"/>
+                <odrl:action rdf:resource="http://creativecommons.org/ns#Distribution"/>
+            </rdf:Description>
+        </odrl:prohibition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#accessibleThroughInterface -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#accessibleThroughInterface">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DistributionAccessMedium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#attribution -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#attribution">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Set"/>
+        <odrl:permission>
+            <rdf:Description>
+                <odrl:duty>
+                    <rdf:Description>
+                        <odrl:action rdf:resource="http://creativecommons.org/ns#Attribution"/>
+                    </rdf:Description>
+                </odrl:duty>
+            </rdf:Description>
+        </odrl:permission>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#bluRay -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#bluRay">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DistributionAccessMedium"/>
+        <rdfs:comment xml:lang="en">bluRay refers to a kind of distribution/access medium used for delivering a language resource; intended for resources delivered on bluRay disks</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#commericalUse -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#commericalUse">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Set"/>
+        <odrl:permission>
+            <rdf:Description>
+                <odrl:action rdf:resource="http://creativecommons.org/ns#CommercialUse"/>
+            </rdf:Description>
+        </odrl:permission>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#communicate -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#communicate">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+        <rdfs:comment xml:lang="en">The Assigner permits/prohibits the Assignees to communicate the Asset to the public</rdfs:comment>
+        <rdfs:label xml:lang="en">communicate</rdfs:label>
+        <skos:closeMatch rdf:resource="http://www.w3.org/ns/odrl/2/present"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#computationalLexicon -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#computationalLexicon"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#discourseAnnotation -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#discourseAnnotation">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DiscourseAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#discourseAnnotation-audienceReactions -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#discourseAnnotation-audienceReactions">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DiscourseAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#discourseAnnotation-coreference -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#discourseAnnotation-coreference">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DiscourseAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#discourseAnnotation-dialogueActs -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#discourseAnnotation-dialogueActs">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DiscourseAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#discourseAnnotation-discourseRelations -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#discourseAnnotation-discourseRelations">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DiscourseAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#downloadable -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#downloadable">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DistributionAccessMedium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#education -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#education">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ConditionsOfUse"/>
+        <rdfs:comment xml:lang="en">Education refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; the resource can only be used for educational purposes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Education</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#evaluation -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#evaluation">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ConditionsOfUse"/>
+        <rdfs:comment xml:lang="en">Evaluation refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; use for evaluation purposes (cf. ELRA_EVALUATION license)</rdfs:comment>
+        <rdfs:label xml:lang="en">Evaluation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#frameNet -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#frameNet">
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#framenet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#hardDisk -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#hardDisk">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DistributionAccessMedium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#incorporate -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#incorporate">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+        <rdfs:comment xml:lang="en">The Assigner permits/prohibits the Assignees to incorporate the Asset unmodified into a Collective Work.</rdfs:comment>
+        <rdfs:label xml:lang="en">incorporate</rdfs:label>
+        <skos:broaderTransitive rdf:resource="http://www.w3.org/ns/odrl/2/use"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#informLicensor -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#informLicensor">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Set"/>
+        <rdfs:comment xml:lang="en">Inform Licensor refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; users must inform the licensor as to the kind of use they make of the resource</rdfs:comment>
+        <odrl:permission>
+            <rdf:Description>
+                <odrl:duty>
+                    <rdf:Description>
+                        <odrl:action rdf:resource="http://creativecommons.org/ns#Notify"/>
+                    </rdf:Description>
+                </odrl:duty>
+            </rdf:Description>
+        </odrl:permission>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#languageEngineeringResearch -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#languageEngineeringResearch">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ConditionsOfUse"/>
+        <rdfs:comment xml:lang="en">Language engineering research refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; the resource can only be used for research purposes in the Language Enginnering / Language Technology domain.</rdfs:comment>
+        <rdfs:label xml:lang="en">Language Engineering Research</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#lexicon -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#lexicon"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#machineReadableDictionary -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#machineReadableDictionary"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#memberOfELRA -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#memberOfELRA">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#UserNature"/>
+        <rdfs:comment xml:lang="en">Used for stating pricing privileges for members of ELRA with regard to the distribution of a resource</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#memberOfLDC -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#memberOfLDC">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#UserNature"/>
+        <rdfs:comment xml:lang="en">Used for stating pricing privileges for members of LDC with regard to the distribution of a resource</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#memberOfTST-Centrale -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#memberOfTST-Centrale">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#UserNature"/>
+        <rdfs:comment xml:lang="en">Used for stating pricing privileges for members of TST-Centrale with regard to the distribution of a resource</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#modalityAnnotation-bodyMovements -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#modalityAnnotation-bodyMovements">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ModalityAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#modalityAnnotation-facialExpressions -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#modalityAnnotation-facialExpressions">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ModalityAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#modalityAnnotation-gazeEyeMovements -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#modalityAnnotation-gazeEyeMovements">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ModalityAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#modalityAnnotation-handArmGestures -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#modalityAnnotation-handArmGestures">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ModalityAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#modalityAnnotation-handManipulationOfObjects -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#modalityAnnotation-handManipulationOfObjects">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ModalityAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#modalityAnnotation-headMovements -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#modalityAnnotation-headMovements">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ModalityAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#modalityAnnotation-lipMovements -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#modalityAnnotation-lipMovements">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ModalityAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#morphosyntacticAnnotation-bPosTagging -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#morphosyntacticAnnotation-bPosTagging">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#MorphosyntacticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#morphosyntacticAnnotation-posTagging -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#morphosyntacticAnnotation-posTagging">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#MorphosyntacticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#noDerivatives -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#noDerivatives">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Set"/>
+        <rdfs:comment xml:lang="en">No Derivatives refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; users are not allow to share derivatives of the resource</rdfs:comment>
+        <odrl:prohibition>
+            <rdf:Description>
+                <odrl:action rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+            </rdf:Description>
+        </odrl:prohibition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#noRedistriubtion -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#noRedistriubtion">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Set"/>
+        <odrl:prohibition>
+            <rdf:Description>
+                <odrl:action rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+            </rdf:Description>
+        </odrl:prohibition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#onlyMSmembers -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#onlyMSmembers">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Set"/>
+        <rdfs:comment xml:lang="en">Only Meta Share members refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; the resource can only be used by members of the MetaShare network</rdfs:comment>
+        <odrl:permission>
+            <rdf:Description>
+                <odrl:constraint>
+                    <rdf:Description rdf:nodeID="genid38">
+                        <odrl:operator rdf:resource="http://www.w3.org/ns/odrl/2/eq"/>
+                        <odrl:recipient rdf:resource="http://purl.org/net/def/metashare#onlyMSmembers"/>
+                    </rdf:Description>
+                </odrl:constraint>
+            </rdf:Description>
+        </odrl:permission>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#ontology -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#ontology"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#openForReuseWithRestrictions -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#openForReuseWithRestrictions">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#License"/>
+        <rdfs:comment xml:lang="en">It refers to any kind of license that governs the use of a resource permitting certain automatic processing procedures but with specific restrictions; the end user is advised to check the conditionsOfUse metadata element for a quick overview of the rights granted for the use of the resource and to read carefully the full license text</rdfs:comment>
+        <rdfs:label xml:lang="en">Open For Reuse With Restrictions</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#paperCopy -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#paperCopy">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DistributionAccessMedium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#personalDataIncluded -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#personalDataIncluded">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ConditionsOfUse"/>
+        <rdfs:comment xml:lang="en">PersonalDataIncluded refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; it&apos;s a privacy warning for resources that include personal data.</rdfs:comment>
+        <rdfs:label xml:lang="en">Personal Data Included</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#redeposit -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#redeposit">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Set"/>
+        <rdfs:comment xml:lang="en">Redeposit refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; users are encouraged to deposit any modified versions of the resource they make to the distribution channel through which they have acquired the resource</rdfs:comment>
+        <odrl:permission>
+            <rdf:Description>
+                <odrl:duty>
+                    <rdf:Description>
+                        <odrl:action rdf:resource="http://purl.org/net/def/metashare#redeposit"/>
+                    </rdf:Description>
+                </odrl:duty>
+            </rdf:Description>
+        </odrl:permission>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#requestPlan -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#requestPlan">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ConditionsOfUse"/>
+        <rdfs:comment xml:lang="en">RequestPlan refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; the licensor requires a research plan for granting access.</rdfs:comment>
+        <rdfs:label xml:lang="en">Request Plan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#research -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#research">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ConditionsOfUse"/>
+        <rdfs:comment xml:lang="en">Research refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; the resource can only be used for research purposes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Research</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-certaintyLevel -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-certaintyLevel">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-emotions -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-emotions">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-entityMentions -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-entityMentions">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-events -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-events">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-namedEntities -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-namedEntities">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-polarity -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-polarity">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-questionTopicalTarget -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-questionTopicalTarget">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-semanticClasses -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-semanticClasses">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-semanticRelations -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-semanticRelations">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-semanticRoles -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-semanticRoles">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-speechActs -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-speechActs">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-temporalExpressions -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-temporalExpressions">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-textualEntailment -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-textualEntailment">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#semanticAnnotation-wordSenses -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#semanticAnnotation-wordSenses">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SemanticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#shareAlike -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#shareAlike">
+        <rdf:type rdf:resource="http://www.w3.org/ns/odrl/2/Set"/>
+        <odrl:permission>
+            <rdf:Description>
+                <odrl:duty>
+                    <rdf:Description>
+                        <odrl:action rdf:resource="http://creativecommons.org/ns#ShareALike"/>
+                    </rdf:Description>
+                </odrl:duty>
+            </rdf:Description>
+        </odrl:permission>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#spatialConstraint -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#spatialConstraint">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ConditionsOfUse"/>
+        <rdfs:comment xml:lang="en">Spatial constraint refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; used for resources with spatial restrictions, e.g. the content is available or can be used only at a single location, center, or site.</rdfs:comment>
+        <rdfs:label xml:lang="en">Spatial Constraint</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#speechAnnotation -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#speechAnnotation">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SpeechAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#speechAnnotation-orthographicTranscription -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#speechAnnotation-orthographicTranscription">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SpeechAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#speechAnnotation-paralanguageAnnotation -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#speechAnnotation-paralanguageAnnotation">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SpeechAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#speechAnnotation-phoneticTranscription -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#speechAnnotation-phoneticTranscription">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SpeechAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#speechAnnotation-prosodicAnnotation -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#speechAnnotation-prosodicAnnotation">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SpeechAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#speechAnnotation-soundEvents -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#speechAnnotation-soundEvents">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SpeechAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#speechAnnotation-speakerIdentification -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#speechAnnotation-speakerIdentification">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SpeechAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#speechAnnotation-speakerTurns -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#speechAnnotation-speakerTurns">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SpeechAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#syntacticAnnotation-shallowParsing -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#syntacticAnnotation-shallowParsing">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SyntacticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#syntacticAnnotation-subcategorizationFrames -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#syntacticAnnotation-subcategorizationFrames">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SyntacticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#syntacticAnnotation-treebanks -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#syntacticAnnotation-treebanks">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SyntacticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#syntacticosemanticAnnotation-links -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#syntacticosemanticAnnotation-links">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#SyntacticAnnotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#terminologicalResource -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#terminologicalResource"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#thesaurus -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#thesaurus"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#userIdentified -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#userIdentified">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#ConditionsOfUse"/>
+        <rdfs:comment xml:lang="en">UserIdentified refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; the resource can only be accessed by users that are identified/authenticated.</rdfs:comment>
+        <rdfs:label xml:lang="en">User Identified</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#webExecutable -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#webExecutable">
+        <rdf:type rdf:resource="http://purl.org/net/def/metashare#DistributionAccessMedium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#wordList -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#wordList"/>
+    
+
+
+    <!-- http://purl.org/net/def/metashare#wordNet -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.org/net/def/metashare#wordNet">
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#wordnet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#Availability">
+        <rdfs:comment xml:lang="en">Availability status of the resource; conditionsOfUse can be further used to indicate the specific terms of availability</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#CharacterEncodingSet">
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#characterEncoding"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#DomainClassification">
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#domainInfo"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#GeographicCoverageClassification">
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#geographicCoverageInfo"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#LicenseInfo">
+        <rdfs:comment xml:lang="en">Links a resource to the licence under which it is distributed; values are taken from a list of standard licences</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#TimeCoverageClassification">
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#timeCoverageInfo"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#Use">
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#actualUse"/>
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#foreseenUse"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#amount">
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#size"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#availabilityEndDate">
+        <rdfs:comment xml:lang="en">Identifies the Availability End Date of the resource.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#availabilityStartDate">
+        <rdfs:comment xml:lang="en">Identifies the Availability Start Date of the resource.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#available-restrictedUse">
+        <rdfs:comment xml:lang="en">For resources available but with conditions of use imposed by the type of licence.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#available-unrestrictedUse">
+        <rdfs:comment xml:lang="en">For resources available with no restrictions of use (e.g. public domain resources).</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#availableThroughOtherDistributor">
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#notAvailableThroughMetashare"/>
+        <rdfs:comment xml:lang="en">For resources that are documented in the catalogue but the contents of which can only be accessed through other distribution channels.</rdfs:comment>
+        <rdfs:label xml:lang="en">Available Through Other Distributor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#commercial">
+        <rdfs:comment xml:lang="en">It refers to resource users affiliated with a commercial institution</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#distributionRightsHolder">
+        <rdfs:comment xml:lang="en">Identifies a person or an organization that holds the distribution rights. The range and scope of distribution rights is defined in the distribution agreement. The distributor in most cases only has a limited licence to distribute the work and collect royalties on behalf of the licensor or the IPR holder and cannot give to any recipient of the work permissions that exceed the scope of the distribution agreement (e.g. to allow uses of the work that are not defined in the distribution agreement)</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#iprHolder">
+        <rdfs:comment xml:lang="en">A person or an organization who holds the full Intellectual Property Rights (Copyright, trademark etc) that subsist in the resource. The IPR holder could be different from the creator that may have assigned the rights to the IPR holder (e.g. an author as a creator assigns her rights to the publisher who is the IPR holder) and the distributor that holds a specific licence (i.e. a permission) to distribute the work via a specific distributor.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#licenseInfo">
+        <rdfs:comment xml:lang="en">Links a resource to the licence under which it is distributed; values are taken from a list of standard licences</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#licensor">
+        <rdfs:comment xml:lang="en">The person who is legally eligible to license and actually licenses the resource. The licensor could be different from the creator, the distributor or the IPR holder. The licensor has the necessary rights or licences to license the work and is the party that actually licenses the resource that is distributed via the specific channel. She will have obtained the necessary rights or licences from the IPR holder and she may have a distribution agreement with a distributor that disseminates the work under a set of conditions defined in the specific  licence and collects revenue on the licensor&apos;s behalf. The attribution of the creator, separately from the attribution of the licensor, may be part of the licence under which the resource is distributed (as e.g. is the case with Creative Commons Licences).</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#noRedistribution">
+        <rdfs:comment xml:lang="en">No Redistribution refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; users are not allowed to redistribute the resource</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#nonCommercialUse">
+        <rdfs:comment xml:lang="en">Non-commercial use refers to a kind of &apos;ConditionsOfUse&apos; imposed by the licence; use for non commercial purposes, such as research and education by academic users</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#proprietary">
+        <rdfs:comment xml:lang="en">It refers to any kind of proprietary license meant to govern the use of a resource; the rights holder has exclusive legal rights over the license itself; the end user is advised to check the conditionsOfUse metadata element for a quick overview of the rights granted for the use of the resource and pay attention to the full license text; </rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#underNegotiation">
+        <rdfs:comment xml:lang="en">For resources whose availability is still pending.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#use">
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#actualUse"/>
+        <terms:replaces rdf:resource="http://www.ilsp.gr/META-XMLSchema#foreseenUse"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/def/metashare#userNature">
+        <rdfs:comment xml:lang="en">Used to identify the type of user of the resource (affiliated with a commercial vs. academic institution)</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

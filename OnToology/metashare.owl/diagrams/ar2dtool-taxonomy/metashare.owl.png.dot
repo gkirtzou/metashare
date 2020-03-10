@@ -1,0 +1,53 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "ns:AnnotationType" "ns:CorpusText" "ns:ComputationalLexicon" "ns:FrameNet" "ns:CorpusAudio" "ns:LexicalConceptualResourceMediaPart" "ns:WordNet" "ns:VideoClassificationInfo" "ns:LexicalConceptualResourceInfo" "ns:LexicalConceptualResource" "ns:LanguageDescriptionImage" "ns:Thesaurus" "ns:LexicalConceptualResourceAudio" "ns:CorpusMediaPart" "ns:Corpus" "ns:LanguageDescription" "ns:CorpusImage" "ns:LexicalConceptualResourceVideo" "ns:TerminologicalResource" "ns:TextClassificationInfo" "ns:LexicalConceptualResourceImage" "ns:CorpusVideo" "ns:MediaPart" "ns:CorpusTextNgram" "ns:LexicalConceptualResourceText" "ns:LanguageDescriptionMediaPart" "ns:LanguageDescriptionInfo" "ns:WordList" "ns:LanguageDescriptionVideo" "ns:ToolService" "ns:Lexicon" "ns:LanguageDescriptionText" "ns:CorpusTextNumerical" "ns:MachineReadableDictionary" "ns:ImageClassificationInfo" "ns:LanguageResource" "ns:ClassificationInfo" "ns:Ontology" "ns:AudioClassificationInfo" ; /*classes style*/
+	"ns:CorpusTextNumerical" -> "ns:CorpusMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:WordList" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:LanguageDescriptionText" -> "ns:LanguageDescriptionMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:LanguageDescriptionText" -> "ns:LanguageDescriptionInfo" [ label = "rdfs:subClassOf" ];
+	"ns:ToolService" -> "ns:LanguageResource" [ label = "rdfs:subClassOf" ];
+	"ns:TextClassificationInfo" -> "ns:ClassificationInfo" [ label = "rdfs:subClassOf" ];
+	"ns:LexicalConceptualResourceImage" -> "ns:LexicalConceptualResourceMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:LexicalConceptualResourceImage" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:DiscourseAnnotation" -> "ns:AnnotationType" [ label = "rdfs:subClassOf" ];
+	"ns:CorpusMediaPart" -> "ns:MediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:ComputationalLexicon" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:SyntacticAnnotation" -> "ns:AnnotationType" [ label = "rdfs:subClassOf" ];
+	"ns:WordNet" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:LanguageDescriptionVideo" -> "ns:LanguageDescriptionMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:LanguageDescriptionVideo" -> "ns:LanguageDescriptionInfo" [ label = "rdfs:subClassOf" ];
+	"ns:CorpusText" -> "ns:CorpusMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:LexicalConceptualResourceMediaPart" -> "ns:MediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:LanguageDescription" -> "ns:LanguageResource" [ label = "rdfs:subClassOf" ];
+	"ns:ModalityAnnotation" -> "ns:AnnotationType" [ label = "rdfs:subClassOf" ];
+	"ns:Ontology" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:AudioClassificationInfo" -> "ns:ClassificationInfo" [ label = "rdfs:subClassOf" ];
+	"ns:SemanticAnnotation" -> "ns:AnnotationType" [ label = "rdfs:subClassOf" ];
+	"ns:CorpusImage" -> "ns:CorpusMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:VideoClassificationInfo" -> "ns:ClassificationInfo" [ label = "rdfs:subClassOf" ];
+	"ns:LexicalConceptualResourceText" -> "ns:LexicalConceptualResourceMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:LexicalConceptualResourceText" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:TerminologicalResource" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:Lexicon" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:MachineReadableDictionary" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:LexicalConceptualResourceAudio" -> "ns:LexicalConceptualResourceMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:LexicalConceptualResourceAudio" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:Thesaurus" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:LexicalConceptualResourceVideo" -> "ns:LexicalConceptualResourceMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:LexicalConceptualResourceVideo" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:CorpusTextNgram" -> "ns:CorpusMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:FrameNet" -> "ns:LexicalConceptualResourceInfo" [ label = "rdfs:subClassOf" ];
+	"ns:CorpusVideo" -> "ns:CorpusMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:LanguageDescriptionImage" -> "ns:LanguageDescriptionMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:LanguageDescriptionImage" -> "ns:LanguageDescriptionInfo" [ label = "rdfs:subClassOf" ];
+	"ns:LexicalConceptualResource" -> "ns:LanguageResource" [ label = "rdfs:subClassOf" ];
+	"ns:MorphosyntacticAnnotation" -> "ns:AnnotationType" [ label = "rdfs:subClassOf" ];
+	"ns:Corpus" -> "ns:LanguageResource" [ label = "rdfs:subClassOf" ];
+	"ns:ImageClassificationInfo" -> "ns:ClassificationInfo" [ label = "rdfs:subClassOf" ];
+	"ns:CorpusAudio" -> "ns:CorpusMediaPart" [ label = "rdfs:subClassOf" ];
+	"ns:languageDescriptionMediaPartInfo" -> "ns:mediaPartInfo" [ label = "rdfs:subClassOf" ];
+	"ns:SpeechAnnotation" -> "ns:AnnotationType" [ label = "rdfs:subClassOf" ];
+	"ns:LanguageDescriptionMediaPart" -> "ns:MediaPart" [ label = "rdfs:subClassOf" ];
+
+}

@@ -1,0 +1,1103 @@
+<http://purl.org/net/def/metashare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/net/def/metashare> <http://purl.org/dc/terms/creator> <http://john.mccr.ae/> .
+<http://purl.org/net/def/metashare> <http://purl.org/dc/terms/creator> "John P. McCrae" .
+<http://purl.org/net/def/metashare> <http://purl.org/dc/terms/creator> "Jorge Gracia" .
+<http://purl.org/net/def/metashare> <http://purl.org/dc/terms/creator> "Marta Villegas" .
+<http://purl.org/net/def/metashare> <http://purl.org/dc/terms/creator> "Penny Labropoulou" .
+<http://purl.org/net/def/metashare> <http://purl.org/dc/terms/creator> "Philipp Cimiano" .
+<http://purl.org/net/def/metashare> <http://purl.org/dc/terms/creator> "Victor Rodriguez Doncel" .
+<http://purl.org/net/def/metashare> <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> .
+<http://purl.org/net/def/metashare> <http://purl.org/dc/terms/modified> "2015-03-20" .
+<http://purl.org/net/def/metashare> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ms" .
+<http://purl.org/net/def/metashare> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://purl.org/net/def/metashare#> .
+<http://purl.org/net/def/metashare> <http://www.w3.org/2000/01/rdf-schema#label> "Rights Information for Language Resources"@en .
+<http://purl.org/net/def/metashare> <http://www.w3.org/2002/07/owl#priorVersion> <http://lodserver.iula.upf.edu/Metashare/ontology/> .
+<http://purl.org/net/def/metashare> <http://www.w3.org/2002/07/owl#priorVersion> <http://purl.org/ms-lod/MetaShareRights.ttl#> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/replaces
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#broaderTransitive
+<http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#closeMatch
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/action
+<http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/constraint
+<http://www.w3.org/ns/odrl/2/constraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/duty
+<http://www.w3.org/ns/odrl/2/duty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/operator
+<http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/permission
+<http://www.w3.org/ns/odrl/2/permission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/prohibition
+<http://www.w3.org/ns/odrl/2/prohibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/purpose
+<http://www.w3.org/ns/odrl/2/purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/odrl/2/recipient
+<http://www.w3.org/ns/odrl/2/recipient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/net/def/metashare#corpusAudioInfo
+<http://purl.org/net/def/metashare#corpusAudioInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#corpusAudioInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#corpusMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#corpusImageInfo
+<http://purl.org/net/def/metashare#corpusImageInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#corpusImageInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#corpusMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#corpusInfo
+<http://purl.org/net/def/metashare#corpusInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/net/def/metashare#corpusMediaPartInfo
+<http://purl.org/net/def/metashare#corpusMediaPartInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#corpusMediaPartInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#mediaPartInfo> .
+<http://purl.org/net/def/metashare#corpusMediaPartInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/def/metashare#CorpusInfo> .
+<http://purl.org/net/def/metashare#CorpusInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#corpusMediaPartInfo> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/def/metashare#CorpusMediaPart> .
+# 
+# http://purl.org/net/def/metashare#corpusTextInfo
+<http://purl.org/net/def/metashare#corpusTextInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#corpusTextInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#corpusMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#corpusTextNgramInfo
+<http://purl.org/net/def/metashare#corpusTextNgramInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#corpusTextNgramInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#corpusMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#corpusTextNumericalInfo
+<http://purl.org/net/def/metashare#corpusTextNumericalInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#corpusTextNumericalInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#corpusMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#corpusVideoInfo
+<http://purl.org/net/def/metashare#corpusVideoInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#corpusVideoInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#corpusMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#distributionAccessMedium
+<http://purl.org/net/def/metashare#distributionAccessMedium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#distributionAccessMedium> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/def/metashare#LanguageResource> .
+<http://purl.org/net/def/metashare#LanguageResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#distributionAccessMedium> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/def/metashare#DistributionAccessMedium> .
+<http://purl.org/net/def/metashare#distributionAccessMedium> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the medium (channel) used for delivery or providing access to the resource"@en .
+<http://purl.org/net/def/metashare#distributionAccessMedium> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the medium (channel) used for delivery or providing access to the resource."@en .
+# 
+# http://purl.org/net/def/metashare#languageDescriptionImageInfo
+<http://purl.org/net/def/metashare#languageDescriptionImageInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#languageDescriptionImageInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#languageDescriptionInfo
+<http://purl.org/net/def/metashare#languageDescriptionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo
+<http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/def/metashare#LanguageDescriptionInfo> .
+<http://purl.org/net/def/metashare#LanguageDescriptionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/def/metashare#LanguageDescriptionMediaPart> .
+# 
+# http://purl.org/net/def/metashare#languageDescriptionTextInfo
+<http://purl.org/net/def/metashare#languageDescriptionTextInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#languageDescriptionTextInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#languageDescriptionVideoInfo
+<http://purl.org/net/def/metashare#languageDescriptionVideoInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#languageDescriptionVideoInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#lexicalConceptualResourceAudioInfo
+<http://purl.org/net/def/metashare#lexicalConceptualResourceAudioInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#lexicalConceptualResourceAudioInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#lexicalConceptualResourceImageInfo
+<http://purl.org/net/def/metashare#lexicalConceptualResourceImageInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#lexicalConceptualResourceImageInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#lexicalConceptualResourceInfo
+<http://purl.org/net/def/metashare#lexicalConceptualResourceInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo
+<http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#mediaPartInfo> .
+<http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart> .
+# 
+# http://purl.org/net/def/metashare#lexicalConceptualResourceTextInfo
+<http://purl.org/net/def/metashare#lexicalConceptualResourceTextInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#lexicalConceptualResourceTextInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#lexicalConceptualResourceType
+<http://purl.org/net/def/metashare#lexicalConceptualResourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/net/def/metashare#lexicalConceptualResourceVideoInfo
+<http://purl.org/net/def/metashare#lexicalConceptualResourceVideoInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#lexicalConceptualResourceVideoInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo> .
+# 
+# http://purl.org/net/def/metashare#lexicalConcepturalResourceType
+<http://purl.org/net/def/metashare#lexicalConcepturalResourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/net/def/metashare#licenseCategory
+<http://purl.org/net/def/metashare#licenseCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#licenseCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/def/metashare#License> .
+<http://purl.org/net/def/metashare#License> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#licenseCategory> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/def/metashare#LicenseCategory> .
+<http://purl.org/net/def/metashare#licenseCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "A way of categorising licences into three main categories: PUB, ACA or RES, according to CLARIN recommendations (cf. https://kitwiki.csc.fi/twiki/bin/view/FinCLARIN/ClarinLC)"@en .
+<http://purl.org/net/def/metashare#licenseCategory> <http://www.w3.org/2000/01/rdf-schema#label> "License Category"@en .
+# 
+# http://purl.org/net/def/metashare#mediaPartInfo
+<http://purl.org/net/def/metashare#mediaPartInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/net/def/metashare#publications
+<http://purl.org/net/def/metashare#publications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#publications> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/def/metashare#Actor> .
+<http://purl.org/net/def/metashare#Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#publications> <http://www.w3.org/2000/01/rdf-schema#comment> "Takes publications from DBLP."@en .
+# 
+# http://purl.org/net/def/metashare#toolServiceInfo
+<http://purl.org/net/def/metashare#toolServiceInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/net/def/metashare#userManual
+<http://purl.org/net/def/metashare#userManual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/def/metashare#userManual> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/def/metashare#LanguageResource> .
+<http://purl.org/net/def/metashare#userManual> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/def/metashare#DocumentInfo> .
+<http://purl.org/net/def/metashare#DocumentInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#userManual> <http://www.w3.org/2000/01/rdf-schema#comment> "Points to the User Manual."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/net/def/metashare#audioGenre
+<http://purl.org/net/def/metashare#audioGenre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#audioGenre> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#genre> .
+# 
+# http://purl.org/net/def/metashare#authenticated
+<http://purl.org/net/def/metashare#authenticated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#authenticated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://purl.org/net/def/metashare#authenticated> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies if the user has been identified/authenticated."@en .
+<http://purl.org/net/def/metashare#authenticated> <http://www.w3.org/2000/01/rdf-schema#label> "Authenticated"@en .
+# 
+# http://purl.org/net/def/metashare#duration
+<http://purl.org/net/def/metashare#duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://purl.org/net/def/metashare#durationOfAudioInfo
+<http://purl.org/net/def/metashare#durationOfAudioInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#durationOfAudioInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#duration> .
+# 
+# http://purl.org/net/def/metashare#durationOfAudioInfoUnit
+<http://purl.org/net/def/metashare#durationOfAudioInfoUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#durationOfAudioInfoUnit> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#durationUnit> .
+# 
+# http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfo
+<http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#duration> .
+# 
+# http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfoUnit
+<http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfoUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfoUnit> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#durationUnit> .
+# 
+# http://purl.org/net/def/metashare#durationUnit
+<http://purl.org/net/def/metashare#durationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://purl.org/net/def/metashare#genre
+<http://purl.org/net/def/metashare#genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#genre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/def/metashare#ClassificationInfo> .
+<http://purl.org/net/def/metashare#genre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://purl.org/net/def/metashare#imageGenre
+<http://purl.org/net/def/metashare#imageGenre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#imageGenre> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#genre> .
+# 
+# http://purl.org/net/def/metashare#metadataSource
+<http://purl.org/net/def/metashare#metadataSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#metadataSource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/def/metashare#LanguageResource> .
+<http://purl.org/net/def/metashare#metadataSource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/net/def/metashare#metadataSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Refers to the catalogue or repository from which the metadata has been originated."@en .
+# 
+# http://purl.org/net/def/metashare#speechGenre
+<http://purl.org/net/def/metashare#speechGenre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#speechGenre> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#genre> .
+# 
+# http://purl.org/net/def/metashare#textGenre
+<http://purl.org/net/def/metashare#textGenre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#textGenre> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#genre> .
+# 
+# http://purl.org/net/def/metashare#videoGenre
+<http://purl.org/net/def/metashare#videoGenre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/net/def/metashare#videoGenre> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/def/metashare#genre> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/net/def/metashare#Actor
+# 
+# http://purl.org/net/def/metashare#AnnotationType
+<http://purl.org/net/def/metashare#AnnotationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/net/def/metashare#AudioClassificationInfo
+<http://purl.org/net/def/metashare#AudioClassificationInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#AudioClassificationInfo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#ClassificationInfo> .
+# 
+# http://purl.org/net/def/metashare#ClassificationInfo
+<http://purl.org/net/def/metashare#ClassificationInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/net/def/metashare#ComputationalLexicon
+<http://purl.org/net/def/metashare#ComputationalLexicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#ComputationalLexicon> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConcepturalResourceType> .
+_:genid1 <http://www.w3.org/2002/07/owl#hasValue> <http://purl.org/net/def/metashare#computationalLexicon> .
+<http://purl.org/net/def/metashare#computationalLexicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#ComputationalLexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+# 
+# http://purl.org/net/def/metashare#ConditionsOfUse
+<http://purl.org/net/def/metashare#ConditionsOfUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#ConditionsOfUse> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#restrictionsOfUse> .
+<http://purl.org/net/def/metashare#ConditionsOfUse> <http://www.w3.org/2000/01/rdf-schema#comment> "The conditionsOfUse optional element in the metadata is only to be taken as providing brief human readable information on the fact that the LR is provided under a specific set of conditions. These correspond to the most frequently used conditions imposed by the licensor of the LR (via the specified licence). The proper exposition of all conditions and possible exceptions is to be found inside the licence text. LR depositors should, hence, carefully choose the values of this field to match the licence chosen and users should carefully read that licence before using the LR."@en .
+# 
+# http://purl.org/net/def/metashare#Corpus
+<http://purl.org/net/def/metashare#Corpus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#Corpus> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#corpusInfo> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#CorpusInfo> .
+<http://purl.org/net/def/metashare#Corpus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LanguageResource> .
+# 
+# http://purl.org/net/def/metashare#CorpusAudio
+<http://purl.org/net/def/metashare#CorpusAudio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusAudio> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#corpusAudioInfo> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#CorpusAudioInfo> .
+<http://purl.org/net/def/metashare#CorpusAudioInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusAudio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#CorpusMediaPart> .
+# 
+# http://purl.org/net/def/metashare#CorpusAudioInfo
+# 
+# http://purl.org/net/def/metashare#CorpusImage
+<http://purl.org/net/def/metashare#CorpusImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusImage> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#corpusImageInfo> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#CorpusImageInfo> .
+<http://purl.org/net/def/metashare#CorpusImageInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusImage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#CorpusMediaPart> .
+# 
+# http://purl.org/net/def/metashare#CorpusImageInfo
+# 
+# http://purl.org/net/def/metashare#CorpusInfo
+# 
+# http://purl.org/net/def/metashare#CorpusMediaPart
+<http://purl.org/net/def/metashare#CorpusMediaPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusMediaPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#MediaPart> .
+# 
+# http://purl.org/net/def/metashare#CorpusText
+<http://purl.org/net/def/metashare#CorpusText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusText> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#corpusTextInfo> .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#CorpusTextInfo> .
+<http://purl.org/net/def/metashare#CorpusTextInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusText> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#CorpusMediaPart> .
+# 
+# http://purl.org/net/def/metashare#CorpusTextInfo
+# 
+# http://purl.org/net/def/metashare#CorpusTextNgram
+<http://purl.org/net/def/metashare#CorpusTextNgram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusTextNgram> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#corpusTextNgramInfo> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#CorpusTextNgramInfo> .
+<http://purl.org/net/def/metashare#CorpusTextNgramInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusTextNgram> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#CorpusMediaPart> .
+# 
+# http://purl.org/net/def/metashare#CorpusTextNgramInfo
+# 
+# http://purl.org/net/def/metashare#CorpusTextNumerical
+<http://purl.org/net/def/metashare#CorpusTextNumerical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusTextNumerical> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#corpusTextNumericalInfo> .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#CorpusTextNumericalInfo> .
+<http://purl.org/net/def/metashare#CorpusTextNumericalInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusTextNumerical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#CorpusMediaPart> .
+# 
+# http://purl.org/net/def/metashare#CorpusTextNumericalInfo
+# 
+# http://purl.org/net/def/metashare#CorpusVideo
+<http://purl.org/net/def/metashare#CorpusVideo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusVideo> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#corpusVideoInfo> .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#CorpusVideoInfo> .
+<http://purl.org/net/def/metashare#CorpusVideoInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#CorpusVideo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#CorpusMediaPart> .
+# 
+# http://purl.org/net/def/metashare#CorpusVideoInfo
+# 
+# http://purl.org/net/def/metashare#DiscourseAnnotation
+<http://purl.org/net/def/metashare#DiscourseAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#DiscourseAnnotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#AnnotationType> .
+# 
+# http://purl.org/net/def/metashare#DistributionAccessMedium
+<http://purl.org/net/def/metashare#DistributionAccessMedium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#DistributionAccessMedium> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the medium (channel) used for delivery or providing access to the resource"@en .
+<http://purl.org/net/def/metashare#DistributionAccessMedium> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the medium (channel) used for delivery or providing access to the resource."@en .
+# 
+# http://purl.org/net/def/metashare#DocumentInfo
+# 
+# http://purl.org/net/def/metashare#FrameNet
+<http://purl.org/net/def/metashare#FrameNet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#FrameNet> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConcepturalResourceType> .
+_:genid9 <http://www.w3.org/2002/07/owl#hasValue> <http://purl.org/net/def/metashare#frameNet> .
+<http://purl.org/net/def/metashare#frameNet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#FrameNet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+# 
+# http://purl.org/net/def/metashare#ImageClassificationInfo
+<http://purl.org/net/def/metashare#ImageClassificationInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#ImageClassificationInfo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#ClassificationInfo> .
+# 
+# http://purl.org/net/def/metashare#LanguageDescription
+<http://purl.org/net/def/metashare#LanguageDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LanguageDescription> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#languageDescriptionInfo> .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#LanguageDescriptionInfo> .
+<http://purl.org/net/def/metashare#LanguageDescription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LanguageResource> .
+# 
+# http://purl.org/net/def/metashare#LanguageDescriptionImage
+<http://purl.org/net/def/metashare#LanguageDescriptionImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LanguageDescriptionImage> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#languageDescriptionImageInfo> .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#LanguageDescriptionImageInfo> .
+<http://purl.org/net/def/metashare#LanguageDescriptionImageInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LanguageDescriptionImage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LanguageDescriptionInfo> .
+<http://purl.org/net/def/metashare#LanguageDescriptionImage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LanguageDescriptionMediaPart> .
+# 
+# http://purl.org/net/def/metashare#LanguageDescriptionImageInfo
+# 
+# http://purl.org/net/def/metashare#LanguageDescriptionInfo
+# 
+# http://purl.org/net/def/metashare#LanguageDescriptionMediaPart
+<http://purl.org/net/def/metashare#LanguageDescriptionMediaPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LanguageDescriptionMediaPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#MediaPart> .
+# 
+# http://purl.org/net/def/metashare#LanguageDescriptionText
+<http://purl.org/net/def/metashare#LanguageDescriptionText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LanguageDescriptionText> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#languageDescriptionTextInfo> .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#LanguageDescriptionTextInfo> .
+<http://purl.org/net/def/metashare#LanguageDescriptionTextInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LanguageDescriptionText> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LanguageDescriptionInfo> .
+<http://purl.org/net/def/metashare#LanguageDescriptionText> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LanguageDescriptionMediaPart> .
+# 
+# http://purl.org/net/def/metashare#LanguageDescriptionTextInfo
+# 
+# http://purl.org/net/def/metashare#LanguageDescriptionVideo
+<http://purl.org/net/def/metashare#LanguageDescriptionVideo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LanguageDescriptionVideo> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#languageDescriptionVideoInfo> .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#LanguageDescriptionVideoInfo> .
+<http://purl.org/net/def/metashare#LanguageDescriptionVideoInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LanguageDescriptionVideo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LanguageDescriptionInfo> .
+<http://purl.org/net/def/metashare#LanguageDescriptionVideo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LanguageDescriptionMediaPart> .
+# 
+# http://purl.org/net/def/metashare#LanguageDescriptionVideoInfo
+# 
+# http://purl.org/net/def/metashare#LanguageResource
+<http://purl.org/net/def/metashare#LanguageResource> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/ns/dcat#Dataset> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LanguageResource> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#resourceInfo> .
+# 
+# http://purl.org/net/def/metashare#LexicalConceptualResource
+<http://purl.org/net/def/metashare#LexicalConceptualResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LexicalConceptualResource> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConceptualResourceInfo> .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+<http://purl.org/net/def/metashare#LexicalConceptualResource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LanguageResource> .
+# 
+# http://purl.org/net/def/metashare#LexicalConceptualResourceAudio
+<http://purl.org/net/def/metashare#LexicalConceptualResourceAudio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceAudio> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConceptualResourceAudioInfo> .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#LexicalConceptualResourceAudioInfo> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceAudioInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceAudio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceAudio> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart> .
+# 
+# http://purl.org/net/def/metashare#LexicalConceptualResourceAudioInfo
+# 
+# http://purl.org/net/def/metashare#LexicalConceptualResourceImage
+<http://purl.org/net/def/metashare#LexicalConceptualResourceImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceImage> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConceptualResourceImageInfo> .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#LexicalConceptualResourceImageInfo> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceImageInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceImage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceImage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart> .
+# 
+# http://purl.org/net/def/metashare#LexicalConceptualResourceImageInfo
+# 
+# http://purl.org/net/def/metashare#LexicalConceptualResourceInfo
+# 
+# http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart
+<http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#MediaPart> .
+# 
+# http://purl.org/net/def/metashare#LexicalConceptualResourceText
+<http://purl.org/net/def/metashare#LexicalConceptualResourceText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceText> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConceptualResourceTextInfo> .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#LexicalConceptualResourceTextInfo> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceTextInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceText> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceText> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart> .
+# 
+# http://purl.org/net/def/metashare#LexicalConceptualResourceTextInfo
+# 
+# http://purl.org/net/def/metashare#LexicalConceptualResourceVideo
+<http://purl.org/net/def/metashare#LexicalConceptualResourceVideo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceVideo> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConceptualResourceVideoInfo> .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#LexicalConceptualResourceVideoInfo> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceVideoInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceVideo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+<http://purl.org/net/def/metashare#LexicalConceptualResourceVideo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart> .
+# 
+# http://purl.org/net/def/metashare#LexicalConceptualResourceVideoInfo
+# 
+# http://purl.org/net/def/metashare#Lexicon
+<http://purl.org/net/def/metashare#Lexicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#Lexicon> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConcepturalResourceType> .
+_:genid19 <http://www.w3.org/2002/07/owl#hasValue> <http://purl.org/net/def/metashare#lexicon> .
+<http://purl.org/net/def/metashare#lexicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#Lexicon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+# 
+# http://purl.org/net/def/metashare#License
+# 
+# http://purl.org/net/def/metashare#LicenseCategory
+<http://purl.org/net/def/metashare#LicenseCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#LicenseCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "A way of classifying licences according to their conditions of use (CLARIN recommendation)"@en .
+<http://purl.org/net/def/metashare#LicenseCategory> <http://www.w3.org/2000/01/rdf-schema#label> "License Category"@en .
+# 
+# http://purl.org/net/def/metashare#MachineReadableDictionary
+<http://purl.org/net/def/metashare#MachineReadableDictionary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#MachineReadableDictionary> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConcepturalResourceType> .
+_:genid20 <http://www.w3.org/2002/07/owl#hasValue> <http://purl.org/net/def/metashare#machineReadableDictionary> .
+<http://purl.org/net/def/metashare#machineReadableDictionary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#MachineReadableDictionary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+# 
+# http://purl.org/net/def/metashare#MediaPart
+<http://purl.org/net/def/metashare#MediaPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/net/def/metashare#ModalityAnnotation
+<http://purl.org/net/def/metashare#ModalityAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#ModalityAnnotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#AnnotationType> .
+# 
+# http://purl.org/net/def/metashare#MorphosyntacticAnnotation
+<http://purl.org/net/def/metashare#MorphosyntacticAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#MorphosyntacticAnnotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#AnnotationType> .
+# 
+# http://purl.org/net/def/metashare#Ontology
+<http://purl.org/net/def/metashare#Ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#Ontology> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConcepturalResourceType> .
+_:genid21 <http://www.w3.org/2002/07/owl#hasValue> <http://purl.org/net/def/metashare#ontology> .
+<http://purl.org/net/def/metashare#ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+# 
+# http://purl.org/net/def/metashare#SemanticAnnotation
+<http://purl.org/net/def/metashare#SemanticAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#SemanticAnnotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#AnnotationType> .
+# 
+# http://purl.org/net/def/metashare#SpeechAnnotation
+<http://purl.org/net/def/metashare#SpeechAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#SpeechAnnotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#AnnotationType> .
+# 
+# http://purl.org/net/def/metashare#SyntacticAnnotation
+<http://purl.org/net/def/metashare#SyntacticAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#SyntacticAnnotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#AnnotationType> .
+# 
+# http://purl.org/net/def/metashare#TerminologicalResource
+<http://purl.org/net/def/metashare#TerminologicalResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#TerminologicalResource> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConcepturalResourceType> .
+_:genid22 <http://www.w3.org/2002/07/owl#hasValue> <http://purl.org/net/def/metashare#terminologicalResource> .
+<http://purl.org/net/def/metashare#terminologicalResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#TerminologicalResource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+# 
+# http://purl.org/net/def/metashare#TextClassificationInfo
+<http://purl.org/net/def/metashare#TextClassificationInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#TextClassificationInfo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#ClassificationInfo> .
+# 
+# http://purl.org/net/def/metashare#Thesaurus
+<http://purl.org/net/def/metashare#Thesaurus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#Thesaurus> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConcepturalResourceType> .
+_:genid23 <http://www.w3.org/2002/07/owl#hasValue> <http://purl.org/net/def/metashare#thesaurus> .
+<http://purl.org/net/def/metashare#thesaurus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#Thesaurus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+# 
+# http://purl.org/net/def/metashare#ToolService
+<http://purl.org/net/def/metashare#ToolService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#ToolService> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#toolServiceInfo> .
+_:genid24 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/def/metashare#ToolServiceInfo> .
+<http://purl.org/net/def/metashare#ToolServiceInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#ToolService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LanguageResource> .
+# 
+# http://purl.org/net/def/metashare#ToolServiceInfo
+# 
+# http://purl.org/net/def/metashare#UserNature
+<http://purl.org/net/def/metashare#UserNature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#UserNature> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the type of user of the resource (e.g. affiliated with a commercial vs. academic institution, member of an organisation/network etc.); the user type may have implications on the licensing or pricing of a resource"@en .
+# 
+# http://purl.org/net/def/metashare#VideoClassificationInfo
+<http://purl.org/net/def/metashare#VideoClassificationInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#VideoClassificationInfo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#ClassificationInfo> .
+# 
+# http://purl.org/net/def/metashare#WordList
+<http://purl.org/net/def/metashare#WordList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#WordList> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConceptualResourceType> .
+_:genid25 <http://www.w3.org/2002/07/owl#hasValue> <http://purl.org/net/def/metashare#wordList> .
+<http://purl.org/net/def/metashare#wordList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#WordList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+# 
+# http://purl.org/net/def/metashare#WordNet
+<http://purl.org/net/def/metashare#WordNet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#WordNet> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/def/metashare#lexicalConcepturalResourceType> .
+_:genid26 <http://www.w3.org/2002/07/owl#hasValue> <http://purl.org/net/def/metashare#wordNet> .
+<http://purl.org/net/def/metashare#wordNet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#WordNet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#LexicalConceptualResourceInfo> .
+# 
+# http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo
+<http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/def/metashare#mediaPartInfo> .
+<http://purl.org/net/def/metashare#mediaPartInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/net/def/metashare#mediaPartInfo
+# 
+# http://www.w3.org/2004/02/skos/core#concept
+<http://www.w3.org/2004/02/skos/core#concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/dcat#Dataset
+# 
+# http://www.w3.org/ns/odrl/2/Set
+<http://www.w3.org/ns/odrl/2/Set> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/net/def/speechAnnotation-soundToTextAlignment
+<http://purl.org/net/def/speechAnnotation-soundToTextAlignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/speechAnnotation-soundToTextAlignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SpeechAnnotation> .
+# 
+# http://purl.org/net/def/metashare#CD-ROM
+<http://purl.org/net/def/metashare#CD-ROM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#CD-ROM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DistributionAccessMedium> .
+<http://purl.org/net/def/metashare#CD-ROM> <http://www.w3.org/2000/01/rdf-schema#comment> "CD-ROM refers to a kind of distribution/access medium used for delivering a language resource; intended for resources delivered on CD-ROM"@en .
+# 
+# http://purl.org/net/def/metashare#DVD-R
+<http://purl.org/net/def/metashare#DVD-R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#DVD-R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DistributionAccessMedium> .
+# 
+# http://purl.org/net/def/metashare#academic-nonCommercialUse
+<http://purl.org/net/def/metashare#academic-nonCommercialUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#academic-nonCommercialUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set> .
+<http://purl.org/net/def/metashare#academic-nonCommercialUse> <http://www.w3.org/ns/odrl/2/permission> _:genid27 .
+_:genid27 <http://www.w3.org/ns/odrl/2/constraint> _:genid28 .
+_:genid28 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid28 <http://www.w3.org/ns/odrl/2/purpose> <http://purl.org/net/def/metashare#academic> .
+<http://purl.org/net/def/metashare#academic-nonCommercialUse> <http://www.w3.org/ns/odrl/2/prohibition> _:genid29 .
+_:genid29 <http://www.w3.org/ns/odrl/2/action> <http://creativecommons.org/ns#CommericalUse> .
+_:genid29 <http://www.w3.org/ns/odrl/2/action> <http://creativecommons.org/ns#Distribution> .
+# 
+# http://purl.org/net/def/metashare#accessibleThroughInterface
+<http://purl.org/net/def/metashare#accessibleThroughInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#accessibleThroughInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DistributionAccessMedium> .
+# 
+# http://purl.org/net/def/metashare#attribution
+<http://purl.org/net/def/metashare#attribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#attribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set> .
+<http://purl.org/net/def/metashare#attribution> <http://www.w3.org/ns/odrl/2/permission> _:genid30 .
+_:genid30 <http://www.w3.org/ns/odrl/2/duty> _:genid31 .
+_:genid31 <http://www.w3.org/ns/odrl/2/action> <http://creativecommons.org/ns#Attribution> .
+# 
+# http://purl.org/net/def/metashare#bluRay
+<http://purl.org/net/def/metashare#bluRay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#bluRay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DistributionAccessMedium> .
+<http://purl.org/net/def/metashare#bluRay> <http://www.w3.org/2000/01/rdf-schema#comment> "bluRay refers to a kind of distribution/access medium used for delivering a language resource; intended for resources delivered on bluRay disks"@en .
+# 
+# http://purl.org/net/def/metashare#commericalUse
+<http://purl.org/net/def/metashare#commericalUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#commericalUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set> .
+<http://purl.org/net/def/metashare#commericalUse> <http://www.w3.org/ns/odrl/2/permission> _:genid32 .
+_:genid32 <http://www.w3.org/ns/odrl/2/action> <http://creativecommons.org/ns#CommercialUse> .
+# 
+# http://purl.org/net/def/metashare#communicate
+<http://purl.org/net/def/metashare#communicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#communicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#concept> .
+<http://purl.org/net/def/metashare#communicate> <http://www.w3.org/2000/01/rdf-schema#comment> "The Assigner permits/prohibits the Assignees to communicate the Asset to the public"@en .
+<http://purl.org/net/def/metashare#communicate> <http://www.w3.org/2000/01/rdf-schema#label> "communicate"@en .
+<http://purl.org/net/def/metashare#communicate> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/ns/odrl/2/present> .
+# 
+# http://purl.org/net/def/metashare#computationalLexicon
+# 
+# http://purl.org/net/def/metashare#discourseAnnotation
+<http://purl.org/net/def/metashare#discourseAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#discourseAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DiscourseAnnotation> .
+# 
+# http://purl.org/net/def/metashare#discourseAnnotation-audienceReactions
+<http://purl.org/net/def/metashare#discourseAnnotation-audienceReactions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#discourseAnnotation-audienceReactions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DiscourseAnnotation> .
+# 
+# http://purl.org/net/def/metashare#discourseAnnotation-coreference
+<http://purl.org/net/def/metashare#discourseAnnotation-coreference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#discourseAnnotation-coreference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DiscourseAnnotation> .
+# 
+# http://purl.org/net/def/metashare#discourseAnnotation-dialogueActs
+<http://purl.org/net/def/metashare#discourseAnnotation-dialogueActs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#discourseAnnotation-dialogueActs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DiscourseAnnotation> .
+# 
+# http://purl.org/net/def/metashare#discourseAnnotation-discourseRelations
+<http://purl.org/net/def/metashare#discourseAnnotation-discourseRelations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#discourseAnnotation-discourseRelations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DiscourseAnnotation> .
+# 
+# http://purl.org/net/def/metashare#downloadable
+<http://purl.org/net/def/metashare#downloadable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#downloadable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DistributionAccessMedium> .
+# 
+# http://purl.org/net/def/metashare#education
+<http://purl.org/net/def/metashare#education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ConditionsOfUse> .
+<http://purl.org/net/def/metashare#education> <http://www.w3.org/2000/01/rdf-schema#comment> "Education refers to a kind of 'ConditionsOfUse' imposed by the licence; the resource can only be used for educational purposes."@en .
+<http://purl.org/net/def/metashare#education> <http://www.w3.org/2000/01/rdf-schema#label> "Education"@en .
+# 
+# http://purl.org/net/def/metashare#evaluation
+<http://purl.org/net/def/metashare#evaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#evaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ConditionsOfUse> .
+<http://purl.org/net/def/metashare#evaluation> <http://www.w3.org/2000/01/rdf-schema#comment> "Evaluation refers to a kind of 'ConditionsOfUse' imposed by the licence; use for evaluation purposes (cf. ELRA_EVALUATION license)"@en .
+<http://purl.org/net/def/metashare#evaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation"@en .
+# 
+# http://purl.org/net/def/metashare#frameNet
+<http://purl.org/net/def/metashare#frameNet> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#framenet> .
+# 
+# http://purl.org/net/def/metashare#hardDisk
+<http://purl.org/net/def/metashare#hardDisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#hardDisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DistributionAccessMedium> .
+# 
+# http://purl.org/net/def/metashare#incorporate
+<http://purl.org/net/def/metashare#incorporate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#incorporate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#concept> .
+<http://purl.org/net/def/metashare#incorporate> <http://www.w3.org/2000/01/rdf-schema#comment> "The Assigner permits/prohibits the Assignees to incorporate the Asset unmodified into a Collective Work."@en .
+<http://purl.org/net/def/metashare#incorporate> <http://www.w3.org/2000/01/rdf-schema#label> "incorporate"@en .
+<http://purl.org/net/def/metashare#incorporate> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.w3.org/ns/odrl/2/use> .
+# 
+# http://purl.org/net/def/metashare#informLicensor
+<http://purl.org/net/def/metashare#informLicensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#informLicensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set> .
+<http://purl.org/net/def/metashare#informLicensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Inform Licensor refers to a kind of 'ConditionsOfUse' imposed by the licence; users must inform the licensor as to the kind of use they make of the resource"@en .
+<http://purl.org/net/def/metashare#informLicensor> <http://www.w3.org/ns/odrl/2/permission> _:genid33 .
+_:genid33 <http://www.w3.org/ns/odrl/2/duty> _:genid34 .
+_:genid34 <http://www.w3.org/ns/odrl/2/action> <http://creativecommons.org/ns#Notify> .
+# 
+# http://purl.org/net/def/metashare#languageEngineeringResearch
+<http://purl.org/net/def/metashare#languageEngineeringResearch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#languageEngineeringResearch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ConditionsOfUse> .
+<http://purl.org/net/def/metashare#languageEngineeringResearch> <http://www.w3.org/2000/01/rdf-schema#comment> "Language engineering research refers to a kind of 'ConditionsOfUse' imposed by the licence; the resource can only be used for research purposes in the Language Enginnering / Language Technology domain."@en .
+<http://purl.org/net/def/metashare#languageEngineeringResearch> <http://www.w3.org/2000/01/rdf-schema#label> "Language Engineering Research"@en .
+# 
+# http://purl.org/net/def/metashare#lexicon
+# 
+# http://purl.org/net/def/metashare#machineReadableDictionary
+# 
+# http://purl.org/net/def/metashare#memberOfELRA
+<http://purl.org/net/def/metashare#memberOfELRA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#memberOfELRA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#UserNature> .
+<http://purl.org/net/def/metashare#memberOfELRA> <http://www.w3.org/2000/01/rdf-schema#comment> "Used for stating pricing privileges for members of ELRA with regard to the distribution of a resource"@en .
+# 
+# http://purl.org/net/def/metashare#memberOfLDC
+<http://purl.org/net/def/metashare#memberOfLDC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#memberOfLDC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#UserNature> .
+<http://purl.org/net/def/metashare#memberOfLDC> <http://www.w3.org/2000/01/rdf-schema#comment> "Used for stating pricing privileges for members of LDC with regard to the distribution of a resource"@en .
+# 
+# http://purl.org/net/def/metashare#memberOfTST-Centrale
+<http://purl.org/net/def/metashare#memberOfTST-Centrale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#memberOfTST-Centrale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#UserNature> .
+<http://purl.org/net/def/metashare#memberOfTST-Centrale> <http://www.w3.org/2000/01/rdf-schema#comment> "Used for stating pricing privileges for members of TST-Centrale with regard to the distribution of a resource"@en .
+# 
+# http://purl.org/net/def/metashare#modalityAnnotation-bodyMovements
+<http://purl.org/net/def/metashare#modalityAnnotation-bodyMovements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#modalityAnnotation-bodyMovements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ModalityAnnotation> .
+# 
+# http://purl.org/net/def/metashare#modalityAnnotation-facialExpressions
+<http://purl.org/net/def/metashare#modalityAnnotation-facialExpressions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#modalityAnnotation-facialExpressions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ModalityAnnotation> .
+# 
+# http://purl.org/net/def/metashare#modalityAnnotation-gazeEyeMovements
+<http://purl.org/net/def/metashare#modalityAnnotation-gazeEyeMovements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#modalityAnnotation-gazeEyeMovements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ModalityAnnotation> .
+# 
+# http://purl.org/net/def/metashare#modalityAnnotation-handArmGestures
+<http://purl.org/net/def/metashare#modalityAnnotation-handArmGestures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#modalityAnnotation-handArmGestures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ModalityAnnotation> .
+# 
+# http://purl.org/net/def/metashare#modalityAnnotation-handManipulationOfObjects
+<http://purl.org/net/def/metashare#modalityAnnotation-handManipulationOfObjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#modalityAnnotation-handManipulationOfObjects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ModalityAnnotation> .
+# 
+# http://purl.org/net/def/metashare#modalityAnnotation-headMovements
+<http://purl.org/net/def/metashare#modalityAnnotation-headMovements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#modalityAnnotation-headMovements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ModalityAnnotation> .
+# 
+# http://purl.org/net/def/metashare#modalityAnnotation-lipMovements
+<http://purl.org/net/def/metashare#modalityAnnotation-lipMovements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#modalityAnnotation-lipMovements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ModalityAnnotation> .
+# 
+# http://purl.org/net/def/metashare#morphosyntacticAnnotation-bPosTagging
+<http://purl.org/net/def/metashare#morphosyntacticAnnotation-bPosTagging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#morphosyntacticAnnotation-bPosTagging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#MorphosyntacticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#morphosyntacticAnnotation-posTagging
+<http://purl.org/net/def/metashare#morphosyntacticAnnotation-posTagging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#morphosyntacticAnnotation-posTagging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#MorphosyntacticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#noDerivatives
+<http://purl.org/net/def/metashare#noDerivatives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#noDerivatives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set> .
+<http://purl.org/net/def/metashare#noDerivatives> <http://www.w3.org/2000/01/rdf-schema#comment> "No Derivatives refers to a kind of 'ConditionsOfUse' imposed by the licence; users are not allow to share derivatives of the resource"@en .
+<http://purl.org/net/def/metashare#noDerivatives> <http://www.w3.org/ns/odrl/2/prohibition> _:genid35 .
+_:genid35 <http://www.w3.org/ns/odrl/2/action> <http://creativecommons.org/ns#DerivativeWorks> .
+# 
+# http://purl.org/net/def/metashare#noRedistriubtion
+<http://purl.org/net/def/metashare#noRedistriubtion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#noRedistriubtion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set> .
+<http://purl.org/net/def/metashare#noRedistriubtion> <http://www.w3.org/ns/odrl/2/prohibition> _:genid36 .
+_:genid36 <http://www.w3.org/ns/odrl/2/action> <http://creativecommons.org/ns#Reproduction> .
+# 
+# http://purl.org/net/def/metashare#onlyMSmembers
+<http://purl.org/net/def/metashare#onlyMSmembers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#onlyMSmembers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set> .
+<http://purl.org/net/def/metashare#onlyMSmembers> <http://www.w3.org/2000/01/rdf-schema#comment> "Only Meta Share members refers to a kind of 'ConditionsOfUse' imposed by the licence; the resource can only be used by members of the MetaShare network"@en .
+<http://purl.org/net/def/metashare#onlyMSmembers> <http://www.w3.org/ns/odrl/2/permission> _:genid37 .
+_:genid37 <http://www.w3.org/ns/odrl/2/constraint> _:genid38 .
+_:genid38 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq> .
+_:genid38 <http://www.w3.org/ns/odrl/2/recipient> <http://purl.org/net/def/metashare#onlyMSmembers> .
+# 
+# http://purl.org/net/def/metashare#ontology
+# 
+# http://purl.org/net/def/metashare#openForReuseWithRestrictions
+<http://purl.org/net/def/metashare#openForReuseWithRestrictions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#openForReuseWithRestrictions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#License> .
+<http://purl.org/net/def/metashare#openForReuseWithRestrictions> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to any kind of license that governs the use of a resource permitting certain automatic processing procedures but with specific restrictions; the end user is advised to check the conditionsOfUse metadata element for a quick overview of the rights granted for the use of the resource and to read carefully the full license text"@en .
+<http://purl.org/net/def/metashare#openForReuseWithRestrictions> <http://www.w3.org/2000/01/rdf-schema#label> "Open For Reuse With Restrictions"@en .
+# 
+# http://purl.org/net/def/metashare#paperCopy
+<http://purl.org/net/def/metashare#paperCopy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#paperCopy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DistributionAccessMedium> .
+# 
+# http://purl.org/net/def/metashare#personalDataIncluded
+<http://purl.org/net/def/metashare#personalDataIncluded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#personalDataIncluded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ConditionsOfUse> .
+<http://purl.org/net/def/metashare#personalDataIncluded> <http://www.w3.org/2000/01/rdf-schema#comment> "PersonalDataIncluded refers to a kind of 'ConditionsOfUse' imposed by the licence; it's a privacy warning for resources that include personal data."@en .
+<http://purl.org/net/def/metashare#personalDataIncluded> <http://www.w3.org/2000/01/rdf-schema#label> "Personal Data Included"@en .
+# 
+# http://purl.org/net/def/metashare#redeposit
+<http://purl.org/net/def/metashare#redeposit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#redeposit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set> .
+<http://purl.org/net/def/metashare#redeposit> <http://www.w3.org/2000/01/rdf-schema#comment> "Redeposit refers to a kind of 'ConditionsOfUse' imposed by the licence; users are encouraged to deposit any modified versions of the resource they make to the distribution channel through which they have acquired the resource"@en .
+<http://purl.org/net/def/metashare#redeposit> <http://www.w3.org/ns/odrl/2/permission> _:genid39 .
+_:genid39 <http://www.w3.org/ns/odrl/2/duty> _:genid40 .
+_:genid40 <http://www.w3.org/ns/odrl/2/action> <http://purl.org/net/def/metashare#redeposit> .
+# 
+# http://purl.org/net/def/metashare#requestPlan
+<http://purl.org/net/def/metashare#requestPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#requestPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ConditionsOfUse> .
+<http://purl.org/net/def/metashare#requestPlan> <http://www.w3.org/2000/01/rdf-schema#comment> "RequestPlan refers to a kind of 'ConditionsOfUse' imposed by the licence; the licensor requires a research plan for granting access."@en .
+<http://purl.org/net/def/metashare#requestPlan> <http://www.w3.org/2000/01/rdf-schema#label> "Request Plan"@en .
+# 
+# http://purl.org/net/def/metashare#research
+<http://purl.org/net/def/metashare#research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#research> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ConditionsOfUse> .
+<http://purl.org/net/def/metashare#research> <http://www.w3.org/2000/01/rdf-schema#comment> "Research refers to a kind of 'ConditionsOfUse' imposed by the licence; the resource can only be used for research purposes."@en .
+<http://purl.org/net/def/metashare#research> <http://www.w3.org/2000/01/rdf-schema#label> "Research"@en .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation
+<http://purl.org/net/def/metashare#semanticAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-certaintyLevel
+<http://purl.org/net/def/metashare#semanticAnnotation-certaintyLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-certaintyLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-emotions
+<http://purl.org/net/def/metashare#semanticAnnotation-emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-emotions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-entityMentions
+<http://purl.org/net/def/metashare#semanticAnnotation-entityMentions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-entityMentions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-events
+<http://purl.org/net/def/metashare#semanticAnnotation-events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-namedEntities
+<http://purl.org/net/def/metashare#semanticAnnotation-namedEntities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-namedEntities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-polarity
+<http://purl.org/net/def/metashare#semanticAnnotation-polarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-polarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-questionTopicalTarget
+<http://purl.org/net/def/metashare#semanticAnnotation-questionTopicalTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-questionTopicalTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-semanticClasses
+<http://purl.org/net/def/metashare#semanticAnnotation-semanticClasses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-semanticClasses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-semanticRelations
+<http://purl.org/net/def/metashare#semanticAnnotation-semanticRelations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-semanticRelations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-semanticRoles
+<http://purl.org/net/def/metashare#semanticAnnotation-semanticRoles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-semanticRoles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-speechActs
+<http://purl.org/net/def/metashare#semanticAnnotation-speechActs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-speechActs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-temporalExpressions
+<http://purl.org/net/def/metashare#semanticAnnotation-temporalExpressions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-temporalExpressions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-textualEntailment
+<http://purl.org/net/def/metashare#semanticAnnotation-textualEntailment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-textualEntailment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#semanticAnnotation-wordSenses
+<http://purl.org/net/def/metashare#semanticAnnotation-wordSenses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#semanticAnnotation-wordSenses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SemanticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#shareAlike
+<http://purl.org/net/def/metashare#shareAlike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#shareAlike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set> .
+<http://purl.org/net/def/metashare#shareAlike> <http://www.w3.org/ns/odrl/2/permission> _:genid41 .
+_:genid41 <http://www.w3.org/ns/odrl/2/duty> _:genid42 .
+_:genid42 <http://www.w3.org/ns/odrl/2/action> <http://creativecommons.org/ns#ShareALike> .
+# 
+# http://purl.org/net/def/metashare#spatialConstraint
+<http://purl.org/net/def/metashare#spatialConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#spatialConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ConditionsOfUse> .
+<http://purl.org/net/def/metashare#spatialConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "Spatial constraint refers to a kind of 'ConditionsOfUse' imposed by the licence; used for resources with spatial restrictions, e.g. the content is available or can be used only at a single location, center, or site."@en .
+<http://purl.org/net/def/metashare#spatialConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial Constraint"@en .
+# 
+# http://purl.org/net/def/metashare#speechAnnotation
+<http://purl.org/net/def/metashare#speechAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#speechAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SpeechAnnotation> .
+# 
+# http://purl.org/net/def/metashare#speechAnnotation-orthographicTranscription
+<http://purl.org/net/def/metashare#speechAnnotation-orthographicTranscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#speechAnnotation-orthographicTranscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SpeechAnnotation> .
+# 
+# http://purl.org/net/def/metashare#speechAnnotation-paralanguageAnnotation
+<http://purl.org/net/def/metashare#speechAnnotation-paralanguageAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#speechAnnotation-paralanguageAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SpeechAnnotation> .
+# 
+# http://purl.org/net/def/metashare#speechAnnotation-phoneticTranscription
+<http://purl.org/net/def/metashare#speechAnnotation-phoneticTranscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#speechAnnotation-phoneticTranscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SpeechAnnotation> .
+# 
+# http://purl.org/net/def/metashare#speechAnnotation-prosodicAnnotation
+<http://purl.org/net/def/metashare#speechAnnotation-prosodicAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#speechAnnotation-prosodicAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SpeechAnnotation> .
+# 
+# http://purl.org/net/def/metashare#speechAnnotation-soundEvents
+<http://purl.org/net/def/metashare#speechAnnotation-soundEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#speechAnnotation-soundEvents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SpeechAnnotation> .
+# 
+# http://purl.org/net/def/metashare#speechAnnotation-speakerIdentification
+<http://purl.org/net/def/metashare#speechAnnotation-speakerIdentification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#speechAnnotation-speakerIdentification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SpeechAnnotation> .
+# 
+# http://purl.org/net/def/metashare#speechAnnotation-speakerTurns
+<http://purl.org/net/def/metashare#speechAnnotation-speakerTurns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#speechAnnotation-speakerTurns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SpeechAnnotation> .
+# 
+# http://purl.org/net/def/metashare#syntacticAnnotation-shallowParsing
+<http://purl.org/net/def/metashare#syntacticAnnotation-shallowParsing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#syntacticAnnotation-shallowParsing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SyntacticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#syntacticAnnotation-subcategorizationFrames
+<http://purl.org/net/def/metashare#syntacticAnnotation-subcategorizationFrames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#syntacticAnnotation-subcategorizationFrames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SyntacticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#syntacticAnnotation-treebanks
+<http://purl.org/net/def/metashare#syntacticAnnotation-treebanks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#syntacticAnnotation-treebanks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SyntacticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#syntacticosemanticAnnotation-links
+<http://purl.org/net/def/metashare#syntacticosemanticAnnotation-links> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#syntacticosemanticAnnotation-links> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#SyntacticAnnotation> .
+# 
+# http://purl.org/net/def/metashare#terminologicalResource
+# 
+# http://purl.org/net/def/metashare#thesaurus
+# 
+# http://purl.org/net/def/metashare#userIdentified
+<http://purl.org/net/def/metashare#userIdentified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#userIdentified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#ConditionsOfUse> .
+<http://purl.org/net/def/metashare#userIdentified> <http://www.w3.org/2000/01/rdf-schema#comment> "UserIdentified refers to a kind of 'ConditionsOfUse' imposed by the licence; the resource can only be accessed by users that are identified/authenticated."@en .
+<http://purl.org/net/def/metashare#userIdentified> <http://www.w3.org/2000/01/rdf-schema#label> "User Identified"@en .
+# 
+# http://purl.org/net/def/metashare#webExecutable
+<http://purl.org/net/def/metashare#webExecutable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/net/def/metashare#webExecutable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/def/metashare#DistributionAccessMedium> .
+# 
+# http://purl.org/net/def/metashare#wordList
+# 
+# http://purl.org/net/def/metashare#wordNet
+<http://purl.org/net/def/metashare#wordNet> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#wordnet> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://purl.org/net/def/metashare#Availability> <http://www.w3.org/2000/01/rdf-schema#comment> "Availability status of the resource; conditionsOfUse can be further used to indicate the specific terms of availability"@en .
+# 
+<http://purl.org/net/def/metashare#CharacterEncodingSet> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#characterEncoding> .
+# 
+<http://purl.org/net/def/metashare#DomainClassification> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#domainInfo> .
+# 
+<http://purl.org/net/def/metashare#GeographicCoverageClassification> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#geographicCoverageInfo> .
+# 
+<http://purl.org/net/def/metashare#LicenseInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a resource to the licence under which it is distributed; values are taken from a list of standard licences"@en .
+# 
+<http://purl.org/net/def/metashare#TimeCoverageClassification> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#timeCoverageInfo> .
+# 
+<http://purl.org/net/def/metashare#Use> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#actualUse> .
+<http://purl.org/net/def/metashare#Use> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#foreseenUse> .
+# 
+<http://purl.org/net/def/metashare#amount> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#size> .
+# 
+<http://purl.org/net/def/metashare#availabilityEndDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the Availability End Date of the resource."@en .
+# 
+<http://purl.org/net/def/metashare#availabilityStartDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies the Availability Start Date of the resource."@en .
+# 
+<http://purl.org/net/def/metashare#available-restrictedUse> <http://www.w3.org/2000/01/rdf-schema#comment> "For resources available but with conditions of use imposed by the type of licence."@en .
+# 
+<http://purl.org/net/def/metashare#available-unrestrictedUse> <http://www.w3.org/2000/01/rdf-schema#comment> "For resources available with no restrictions of use (e.g. public domain resources)."@en .
+# 
+<http://purl.org/net/def/metashare#availableThroughOtherDistributor> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#notAvailableThroughMetashare> .
+<http://purl.org/net/def/metashare#availableThroughOtherDistributor> <http://www.w3.org/2000/01/rdf-schema#comment> "For resources that are documented in the catalogue but the contents of which can only be accessed through other distribution channels."@en .
+<http://purl.org/net/def/metashare#availableThroughOtherDistributor> <http://www.w3.org/2000/01/rdf-schema#label> "Available Through Other Distributor"@en .
+# 
+<http://purl.org/net/def/metashare#commercial> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to resource users affiliated with a commercial institution"@en .
+# 
+<http://purl.org/net/def/metashare#distributionRightsHolder> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies a person or an organization that holds the distribution rights. The range and scope of distribution rights is defined in the distribution agreement. The distributor in most cases only has a limited licence to distribute the work and collect royalties on behalf of the licensor or the IPR holder and cannot give to any recipient of the work permissions that exceed the scope of the distribution agreement (e.g. to allow uses of the work that are not defined in the distribution agreement)"@en .
+# 
+<http://purl.org/net/def/metashare#iprHolder> <http://www.w3.org/2000/01/rdf-schema#comment> "A person or an organization who holds the full Intellectual Property Rights (Copyright, trademark etc) that subsist in the resource. The IPR holder could be different from the creator that may have assigned the rights to the IPR holder (e.g. an author as a creator assigns her rights to the publisher who is the IPR holder) and the distributor that holds a specific licence (i.e. a permission) to distribute the work via a specific distributor."@en .
+# 
+<http://purl.org/net/def/metashare#licenseInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a resource to the licence under which it is distributed; values are taken from a list of standard licences"@en .
+# 
+<http://purl.org/net/def/metashare#licensor> <http://www.w3.org/2000/01/rdf-schema#comment> "The person who is legally eligible to license and actually licenses the resource. The licensor could be different from the creator, the distributor or the IPR holder. The licensor has the necessary rights or licences to license the work and is the party that actually licenses the resource that is distributed via the specific channel. She will have obtained the necessary rights or licences from the IPR holder and she may have a distribution agreement with a distributor that disseminates the work under a set of conditions defined in the specific  licence and collects revenue on the licensor's behalf. The attribution of the creator, separately from the attribution of the licensor, may be part of the licence under which the resource is distributed (as e.g. is the case with Creative Commons Licences)."@en .
+# 
+<http://purl.org/net/def/metashare#noRedistribution> <http://www.w3.org/2000/01/rdf-schema#comment> "No Redistribution refers to a kind of 'ConditionsOfUse' imposed by the licence; users are not allowed to redistribute the resource"@en .
+# 
+<http://purl.org/net/def/metashare#nonCommercialUse> <http://www.w3.org/2000/01/rdf-schema#comment> "Non-commercial use refers to a kind of 'ConditionsOfUse' imposed by the licence; use for non commercial purposes, such as research and education by academic users"@en .
+# 
+<http://purl.org/net/def/metashare#proprietary> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to any kind of proprietary license meant to govern the use of a resource; the rights holder has exclusive legal rights over the license itself; the end user is advised to check the conditionsOfUse metadata element for a quick overview of the rights granted for the use of the resource and pay attention to the full license text; "@en .
+# 
+<http://purl.org/net/def/metashare#underNegotiation> <http://www.w3.org/2000/01/rdf-schema#comment> "For resources whose availability is still pending."@en .
+# 
+<http://purl.org/net/def/metashare#use> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#actualUse> .
+<http://purl.org/net/def/metashare#use> <http://purl.org/dc/terms/replaces> <http://www.ilsp.gr/META-XMLSchema#foreseenUse> .
+# 
+<http://purl.org/net/def/metashare#userNature> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to identify the type of user of the resource (affiliated with a commercial vs. academic institution)"@en .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

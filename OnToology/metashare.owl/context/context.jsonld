@@ -1,0 +1,2008 @@
+{
+  "@context" : {
+    "GeographicCoverageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#GeographicCoverageInfo"
+    },
+    "sceneIllumination" : {
+      "@id" : "http://purl.org/net/def/metashare#sceneIllumination",
+      "@type" : "@id"
+    },
+    "validationType" : {
+      "@id" : "http://purl.org/net/def/metashare#validationType",
+      "@type" : "@id"
+    },
+    "EvaluationLevel" : {
+      "@id" : "http://purl.org/net/def/metashare#EvaluationLevel"
+    },
+    "SegmentationLevel" : {
+      "@id" : "http://purl.org/net/def/metashare#SegmentationLevel"
+    },
+    "mediaPartInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#mediaPartInfo",
+      "@type" : "@id"
+    },
+    "durationOfEffectiveSpeechInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "LinkToOtherMediaInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LinkToOtherMediaInfo"
+    },
+    "rasterOrVectorGraphics" : {
+      "@id" : "http://purl.org/net/def/metashare#rasterOrVectorGraphics",
+      "@type" : "@id"
+    },
+    "BaseItem" : {
+      "@id" : "http://purl.org/net/def/metashare#BaseItem"
+    },
+    "dynamicElementInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#dynamicElementInfo",
+      "@type" : "@id"
+    },
+    "CorpusImage" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusImage"
+    },
+    "factors" : {
+      "@id" : "http://purl.org/net/def/metashare#factors",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "AnnotationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#AnnotationInfo"
+    },
+    "sourceChannelType" : {
+      "@id" : "http://purl.org/net/def/metashare#sourceChannelType",
+      "@type" : "@id"
+    },
+    "OriginOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#OriginOfPersons"
+    },
+    "languageVarietyInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#languageVarietyInfo",
+      "@type" : "@id"
+    },
+    "annotationEndDate" : {
+      "@id" : "http://purl.org/net/def/metashare#annotationEndDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "distractors" : {
+      "@id" : "http://purl.org/net/def/metashare#distractors",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "typeOfTextNumericalContent" : {
+      "@id" : "http://purl.org/net/def/metashare#typeOfTextNumericalContent",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "affiliation" : {
+      "@id" : "http://purl.org/net/def/metashare#affiliation",
+      "@type" : "@id"
+    },
+    "geographicCoverage" : {
+      "@id" : "http://purl.org/net/def/metashare#geographicCoverage",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ImageFormatInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#ImageFormatInfo"
+    },
+    "CompressionName" : {
+      "@id" : "http://purl.org/net/def/metashare#CompressionName"
+    },
+    "RelatedLexiconType" : {
+      "@id" : "http://purl.org/net/def/metashare#RelatedLexiconType"
+    },
+    "lexicalConcepturalResourceType" : {
+      "@id" : "http://purl.org/net/def/metashare#lexicalConcepturalResourceType",
+      "@type" : "@id"
+    },
+    "typeOfImageContent" : {
+      "@id" : "http://purl.org/net/def/metashare#typeOfImageContent",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sizeUnit" : {
+      "@id" : "http://purl.org/net/def/metashare#sizeUnit",
+      "@type" : "@id"
+    },
+    "synchronizedWithAudio" : {
+      "@id" : "http://purl.org/net/def/metashare#synchronizedWithAudio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "conformanceToStandardsBestPractices" : {
+      "@id" : "http://purl.org/net/def/metashare#conformanceToStandardsBestPractices",
+      "@type" : "@id"
+    },
+    "documentation" : {
+      "@id" : "http://purl.org/net/def/metashare#documentation",
+      "@type" : "@id"
+    },
+    "member" : {
+      "@id" : "http://purl.org/net/def/metashare#member",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "organizationShortName" : {
+      "@id" : "http://purl.org/net/def/metashare#organizationShortName",
+      "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "CorpusTextNumericalInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusTextNumericalInfo"
+    },
+    "CharacterEncodingInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#CharacterEncodingInfo"
+    },
+    "corpusTextInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#corpusTextInfo",
+      "@type" : "@id"
+    },
+    "creationDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#creationDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CatalogRecord" : {
+      "@id" : "http://www.w3.org/ns/dcat#CatalogRecord"
+    },
+    "departmentName" : {
+      "@id" : "http://purl.org/net/def/metashare#departmentName",
+      "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "placeOfBirth" : {
+      "@id" : "http://purl.org/net/def/metashare#placeOfBirth",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "distributionAccessMedium" : {
+      "@id" : "http://purl.org/net/def/metashare#distributionAccessMedium",
+      "@type" : "@id"
+    },
+    "LicenseCategory" : {
+      "@id" : "http://purl.org/net/def/metashare#LicenseCategory"
+    },
+    "CorpusImageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusImageInfo"
+    },
+    "creationModeDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#creationModeDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "RequiredHardware" : {
+      "@id" : "http://purl.org/net/def/metashare#RequiredHardware"
+    },
+    "Dataset" : {
+      "@id" : "http://www.w3.org/ns/dcat#Dataset"
+    },
+    "profession" : {
+      "@id" : "http://purl.org/net/def/metashare#profession",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "participantInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#participantInfo",
+      "@type" : "@id"
+    },
+    "multilingualityType" : {
+      "@id" : "http://purl.org/net/def/metashare#multilingualityType",
+      "@type" : "@id"
+    },
+    "usageProject" : {
+      "@id" : "http://purl.org/net/def/metashare#usageProject",
+      "@type" : "@id"
+    },
+    "sizePerCharacterEncoding" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerCharacterEncoding",
+      "@type" : "@id"
+    },
+    "RasterOrVectorGraphics" : {
+      "@id" : "http://purl.org/net/def/metashare#RasterOrVectorGraphics"
+    },
+    "videoClassificationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#videoClassificationInfo",
+      "@type" : "@id"
+    },
+    "interactivity" : {
+      "@id" : "http://purl.org/net/def/metashare#interactivity",
+      "@type" : "@id"
+    },
+    "interactiveMedia" : {
+      "@id" : "http://purl.org/net/def/metashare#interactiveMedia",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "evaluationTool" : {
+      "@id" : "http://purl.org/net/def/metashare#evaluationTool",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CorpusTextNumerical" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusTextNumerical"
+    },
+    "LanguageDescriptionTextInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageDescriptionTextInfo"
+    },
+    "synchronizedWithImage" : {
+      "@id" : "http://purl.org/net/def/metashare#synchronizedWithImage",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "LinguisticInformation" : {
+      "@id" : "http://purl.org/net/def/metashare#LinguisticInformation"
+    },
+    "origin" : {
+      "@id" : "http://purl.org/net/def/metashare#origin",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "url" : {
+      "@id" : "http://purl.org/net/def/metashare#url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#concept"
+    },
+    "Documentation" : {
+      "@id" : "http://purl.org/net/def/metashare#Documentation"
+    },
+    "publications" : {
+      "@id" : "http://purl.org/net/def/metashare#publications",
+      "@type" : "@id"
+    },
+    "personInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#personInfo",
+      "@type" : "@id"
+    },
+    "languageName" : {
+      "@id" : "http://purl.org/net/def/metashare#languageName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "derivedResource" : {
+      "@id" : "http://purl.org/net/def/metashare#derivedResource",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "toolServiceInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#toolServiceInfo",
+      "@type" : "@id"
+    },
+    "Use" : {
+      "@id" : "http://purl.org/net/def/metashare#Use"
+    },
+    "projectEndDate" : {
+      "@id" : "http://purl.org/net/def/metashare#projectEndDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "requiredLRs" : {
+      "@id" : "http://purl.org/net/def/metashare#requiredLRs",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "output" : {
+      "@id" : "http://purl.org/net/def/metashare#output",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "annotationTool" : {
+      "@id" : "http://purl.org/net/def/metashare#annotationTool",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "interaction" : {
+      "@id" : "http://purl.org/net/def/metashare#interaction",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "lexicalConceptualResourceMediaPartInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#lexicalConceptualResourceMediaPartInfo",
+      "@type" : "@id"
+    },
+    "timeCoverage" : {
+      "@id" : "http://purl.org/net/def/metashare#timeCoverage",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "country" : {
+      "@id" : "http://purl.org/net/def/metashare#country",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "durationOfEffectiveSpeechInfoUnit" : {
+      "@id" : "http://purl.org/net/def/metashare#durationOfEffectiveSpeechInfoUnit",
+      "@type" : "@id"
+    },
+    "SyntacticAnnotation" : {
+      "@id" : "http://purl.org/net/def/metashare#SyntacticAnnotation"
+    },
+    "MediaType" : {
+      "@id" : "http://purl.org/net/def/metashare#MediaType"
+    },
+    "Organization" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Organization"
+    },
+    "languageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#languageInfo",
+      "@type" : "@id"
+    },
+    "creationEndDate" : {
+      "@id" : "http://purl.org/net/def/metashare#creationEndDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "LexicalConceptualResourceType" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResourceType"
+    },
+    "recordingDeviceTypeDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#recordingDeviceTypeDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "LanguageDescriptionImage" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageDescriptionImage"
+    },
+    "iprHolder" : {
+      "@id" : "http://purl.org/net/def/metashare#iprHolder",
+      "@type" : "@id"
+    },
+    "bodyMovement" : {
+      "@id" : "http://purl.org/net/def/metashare#bodyMovement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sizeInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#sizeInfo",
+      "@type" : "@id"
+    },
+    "CorpusInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusInfo"
+    },
+    "fundingCountry" : {
+      "@id" : "http://purl.org/net/def/metashare#fundingCountry",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "city" : {
+      "@id" : "http://purl.org/net/def/metashare#city",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "SizeUnit" : {
+      "@id" : "http://purl.org/net/def/metashare#SizeUnit"
+    },
+    "Thesaurus" : {
+      "@id" : "http://purl.org/net/def/metashare#Thesaurus"
+    },
+    "durationOfAudioInfoUnit" : {
+      "@id" : "http://purl.org/net/def/metashare#durationOfAudioInfoUnit",
+      "@type" : "@id"
+    },
+    "height" : {
+      "@id" : "http://purl.org/net/def/metashare#height",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "corpusTextNumericalInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#corpusTextNumericalInfo",
+      "@type" : "@id"
+    },
+    "shallowness" : {
+      "@id" : "http://purl.org/net/def/metashare#shallowness",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "DurationOfAudioInfoUnit" : {
+      "@id" : "http://purl.org/net/def/metashare#DurationOfAudioInfoUnit"
+    },
+    "ngramInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#ngramInfo",
+      "@type" : "@id"
+    },
+    "priorVersion" : {
+      "@id" : "http://www.w3.org/2002/07/owl#priorVersion"
+    },
+    "dialectAccentOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#dialectAccentOfPersons",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "conversationalType" : {
+      "@id" : "http://purl.org/net/def/metashare#conversationalType",
+      "@type" : "@id"
+    },
+    "capturingDeviceType" : {
+      "@id" : "http://purl.org/net/def/metashare#capturingDeviceType",
+      "@type" : "@id"
+    },
+    "evaluationDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#evaluationDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isFactored" : {
+      "@id" : "http://purl.org/net/def/metashare#isFactored",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "CorpusVideo" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusVideo"
+    },
+    "fundingType" : {
+      "@id" : "http://purl.org/net/def/metashare#fundingType",
+      "@type" : "@id"
+    },
+    "compression" : {
+      "@id" : "http://purl.org/net/def/metashare#compression",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "mediaTypeDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#mediaTypeDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "timeCoverageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#timeCoverageInfo",
+      "@type" : "@id"
+    },
+    "languageDescriptionTextInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#languageDescriptionTextInfo",
+      "@type" : "@id"
+    },
+    "capturingEnvironment" : {
+      "@id" : "http://purl.org/net/def/metashare#capturingEnvironment",
+      "@type" : "@id"
+    },
+    "byteOrder" : {
+      "@id" : "http://purl.org/net/def/metashare#byteOrder",
+      "@type" : "@id"
+    },
+    "textIncludedInVideo" : {
+      "@id" : "http://purl.org/net/def/metashare#textIncludedInVideo",
+      "@type" : "@id"
+    },
+    "LexicalConceptualResourceAudioInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResourceAudioInfo"
+    },
+    "frameRate" : {
+      "@id" : "http://purl.org/net/def/metashare#frameRate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "sizePerVideoFormat" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerVideoFormat",
+      "@type" : "@id"
+    },
+    "WordList" : {
+      "@id" : "http://purl.org/net/def/metashare#WordList"
+    },
+    "SignalEncoding" : {
+      "@id" : "http://purl.org/net/def/metashare#SignalEncoding"
+    },
+    "ImageClassificationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#ImageClassificationInfo"
+    },
+    "audioSizeInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#audioSizeInfo",
+      "@type" : "@id"
+    },
+    "LanguageDescriptionVideoInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageDescriptionVideoInfo"
+    },
+    "TimeCoverageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#TimeCoverageInfo"
+    },
+    "NgramInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#NgramInfo"
+    },
+    "gestures" : {
+      "@id" : "http://purl.org/net/def/metashare#gestures",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "LexicalConceptualResourceInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResourceInfo"
+    },
+    "operator" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/operator"
+    },
+    "corpusInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#corpusInfo",
+      "@type" : "@id"
+    },
+    "originOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#originOfPersons",
+      "@type" : "@id"
+    },
+    "sizePerLanguageVariety" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerLanguageVariety",
+      "@type" : "@id"
+    },
+    "sizePerVideoClassification" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerVideoClassification",
+      "@type" : "@id"
+    },
+    "ageRangeStart" : {
+      "@id" : "http://purl.org/net/def/metashare#ageRangeStart",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "projectShortName" : {
+      "@id" : "http://purl.org/net/def/metashare#projectShortName",
+      "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "tagsetLanguageName" : {
+      "@id" : "http://purl.org/net/def/metashare#tagsetLanguageName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "resourceShortName" : {
+      "@id" : "http://purl.org/net/def/metashare#resourceShortName",
+      "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "evaluated" : {
+      "@id" : "http://purl.org/net/def/metashare#evaluated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "SceneIllumination" : {
+      "@id" : "http://purl.org/net/def/metashare#SceneIllumination"
+    },
+    "ResolutionInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#ResolutionInfo"
+    },
+    "textGenre" : {
+      "@id" : "http://purl.org/net/def/metashare#textGenre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "actualUseDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#actualUseDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "faxNumber" : {
+      "@id" : "http://purl.org/net/def/metashare#faxNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ClassificationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#ClassificationInfo"
+    },
+    "licensor" : {
+      "@id" : "http://purl.org/net/def/metashare#licensor",
+      "@type" : "@id"
+    },
+    "compressionLoss" : {
+      "@id" : "http://purl.org/net/def/metashare#compressionLoss",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "capturingDeviceTypeDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#capturingDeviceTypeDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "requiredHardware" : {
+      "@id" : "http://purl.org/net/def/metashare#requiredHardware",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "documentUnstructured" : {
+      "@id" : "http://purl.org/net/def/metashare#documentUnstructured",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Corpus" : {
+      "@id" : "http://purl.org/net/def/metashare#Corpus"
+    },
+    "tagsetLanguageId" : {
+      "@id" : "http://purl.org/net/def/metashare#tagsetLanguageId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "DistributionAccessMedium" : {
+      "@id" : "http://purl.org/net/def/metashare#DistributionAccessMedium"
+    },
+    "ConformanceToClassificationScheme" : {
+      "@id" : "http://purl.org/net/def/metashare#ConformanceToClassificationScheme"
+    },
+    "validationMode" : {
+      "@id" : "http://purl.org/net/def/metashare#validationMode",
+      "@type" : "@id"
+    },
+    "sizePerTextNumericalFormat" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerTextNumericalFormat",
+      "@type" : "@id"
+    },
+    "MachineReadableDictionary" : {
+      "@id" : "http://purl.org/net/def/metashare#MachineReadableDictionary"
+    },
+    "telephoneNumber" : {
+      "@id" : "http://purl.org/net/def/metashare#telephoneNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "languageDescriptionVideoInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#languageDescriptionVideoInfo",
+      "@type" : "@id"
+    },
+    "ValidationMode" : {
+      "@id" : "http://purl.org/net/def/metashare#ValidationMode"
+    },
+    "ConditionsOfUse" : {
+      "@id" : "http://purl.org/net/def/metashare#ConditionsOfUse"
+    },
+    "speakingImpairment" : {
+      "@id" : "http://purl.org/net/def/metashare#speakingImpairment",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "lexicalConceptualResourceAudioInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#lexicalConceptualResourceAudioInfo",
+      "@type" : "@id"
+    },
+    "recipient" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/recipient"
+    },
+    "interannotatorAgreement" : {
+      "@id" : "http://purl.org/net/def/metashare#interannotatorAgreement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "weightedGrammar" : {
+      "@id" : "http://purl.org/net/def/metashare#weightedGrammar",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "CorpusMediaPart" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusMediaPart"
+    },
+    "CorpusText" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusText"
+    },
+    "StaticElementInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#StaticElementInfo"
+    },
+    "availabilityEndDate" : {
+      "@id" : "http://purl.org/net/def/metashare#availabilityEndDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "naturality" : {
+      "@id" : "http://purl.org/net/def/metashare#naturality",
+      "@type" : "@id"
+    },
+    "robustness" : {
+      "@id" : "http://purl.org/net/def/metashare#robustness",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "EvaluationType" : {
+      "@id" : "http://purl.org/net/def/metashare#EvaluationType"
+    },
+    "SignConvention" : {
+      "@id" : "http://purl.org/net/def/metashare#SignConvention"
+    },
+    "LexicalConceptualResource" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResource"
+    },
+    "actualUseInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#actualUseInfo",
+      "@type" : "@id"
+    },
+    "LanguageResource" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageResource"
+    },
+    "languageDescriptionInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#languageDescriptionInfo",
+      "@type" : "@id"
+    },
+    "noiseLevel" : {
+      "@id" : "http://purl.org/net/def/metashare#noiseLevel",
+      "@type" : "@id"
+    },
+    "DurationOfEffectiveSpeechInfoUnit" : {
+      "@id" : "http://purl.org/net/def/metashare#DurationOfEffectiveSpeechInfoUnit"
+    },
+    "Lexicon" : {
+      "@id" : "http://purl.org/net/def/metashare#Lexicon"
+    },
+    "HearingImpairmentOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#HearingImpairmentOfPersons"
+    },
+    "relatedLexiconType" : {
+      "@id" : "http://purl.org/net/def/metashare#relatedLexiconType",
+      "@type" : "@id"
+    },
+    "ToolServiceInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#ToolServiceInfo"
+    },
+    "characterEncoding" : {
+      "@id" : "http://purl.org/net/def/metashare#characterEncoding",
+      "@type" : "@id"
+    },
+    "eyeMovement" : {
+      "@id" : "http://purl.org/net/def/metashare#eyeMovement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "availability" : {
+      "@id" : "http://purl.org/net/def/metashare#availability",
+      "@type" : "@id"
+    },
+    "inputInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#inputInfo",
+      "@type" : "@id"
+    },
+    "LanguageDescriptionImageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageDescriptionImageInfo"
+    },
+    "sourceChannel" : {
+      "@id" : "http://purl.org/net/def/metashare#sourceChannel",
+      "@type" : "@id"
+    },
+    "Origin" : {
+      "@id" : "http://purl.org/net/def/metashare#Origin"
+    },
+    "numberOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#numberOfPersons",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "ageGroup" : {
+      "@id" : "http://purl.org/net/def/metashare#ageGroup",
+      "@type" : "@id"
+    },
+    "EvaluationMeasure" : {
+      "@id" : "http://purl.org/net/def/metashare#EvaluationMeasure"
+    },
+    "annotationType" : {
+      "@id" : "http://purl.org/net/def/metashare#annotationType",
+      "@type" : "@id"
+    },
+    "evaluator" : {
+      "@id" : "http://purl.org/net/def/metashare#evaluator",
+      "@type" : "@id"
+    },
+    "LanguageDescriptionType" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageDescriptionType"
+    },
+    "LanguageDescriptionMediaPart" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageDescriptionMediaPart"
+    },
+    "geographicDistributionOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#geographicDistributionOfPersons",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "email" : {
+      "@id" : "http://purl.org/net/def/metashare#email",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "synchronizedWithTextNumerical" : {
+      "@id" : "http://purl.org/net/def/metashare#synchronizedWithTextNumerical",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "OutputInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#OutputInfo"
+    },
+    "BodyParts" : {
+      "@id" : "http://purl.org/net/def/metashare#BodyParts"
+    },
+    "sizeHeight" : {
+      "@id" : "http://purl.org/net/def/metashare#sizeHeight",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "compatibleLexiconType" : {
+      "@id" : "http://purl.org/net/def/metashare#compatibleLexiconType",
+      "@type" : "@id"
+    },
+    "CorpusTextNgramInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusTextNgramInfo"
+    },
+    "linguisticInformation" : {
+      "@id" : "http://purl.org/net/def/metashare#linguisticInformation",
+      "@type" : "@id"
+    },
+    "revision" : {
+      "@id" : "http://purl.org/net/def/metashare#revision",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "LexicalConceptualResourceImage" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResourceImage"
+    },
+    "languageDependent" : {
+      "@id" : "http://purl.org/net/def/metashare#languageDependent",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hearingImpairmentOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#hearingImpairmentOfPersons",
+      "@type" : "@id"
+    },
+    "Person" : {
+      "@id" : "http://purl.org/net/def/metashare#Person"
+    },
+    "ToolDocumentationType" : {
+      "@id" : "http://purl.org/net/def/metashare#ToolDocumentationType"
+    },
+    "DynamicElementInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#DynamicElementInfo"
+    },
+    "corpusVideoInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#corpusVideoInfo",
+      "@type" : "@id"
+    },
+    "trainedSpeaker" : {
+      "@id" : "http://purl.org/net/def/metashare#trainedSpeaker",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Interactivity" : {
+      "@id" : "http://purl.org/net/def/metashare#Interactivity"
+    },
+    "languageScript" : {
+      "@id" : "http://purl.org/net/def/metashare#languageScript",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "closeMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch"
+    },
+    "textFormatInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#textFormatInfo",
+      "@type" : "@id"
+    },
+    "CorpusTextNgram" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusTextNgram"
+    },
+    "SourceChannelType" : {
+      "@id" : "http://purl.org/net/def/metashare#SourceChannelType"
+    },
+    "conformanceToClassificationScheme" : {
+      "@id" : "http://purl.org/net/def/metashare#conformanceToClassificationScheme",
+      "@type" : "@id"
+    },
+    "UserNature" : {
+      "@id" : "http://purl.org/net/def/metashare#UserNature"
+    },
+    "userManual" : {
+      "@id" : "http://purl.org/net/def/metashare#userManual",
+      "@type" : "@id"
+    },
+    "SexOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#SexOfPersons"
+    },
+    "userNature" : {
+      "@id" : "http://purl.org/net/def/metashare#userNature",
+      "@type" : "@id"
+    },
+    "AnnotationType" : {
+      "@id" : "http://purl.org/net/def/metashare#AnnotationType"
+    },
+    "conditionsOfUse" : {
+      "@id" : "http://purl.org/net/def/metashare#conditionsOfUse",
+      "@type" : "@id"
+    },
+    "Actor" : {
+      "@id" : "http://purl.org/net/def/metashare#Actor"
+    },
+    "speakingImpairmentOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#speakingImpairmentOfPersons",
+      "@type" : "@id"
+    },
+    "licenseCategory" : {
+      "@id" : "http://purl.org/net/def/metashare#licenseCategory",
+      "@type" : "@id"
+    },
+    "Quality" : {
+      "@id" : "http://purl.org/net/def/metashare#Quality"
+    },
+    "tagset" : {
+      "@id" : "http://purl.org/net/def/metashare#tagset",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "evaluationLevel" : {
+      "@id" : "http://purl.org/net/def/metashare#evaluationLevel",
+      "@type" : "@id"
+    },
+    "projectStartDate" : {
+      "@id" : "http://purl.org/net/def/metashare#projectStartDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "EvaluationCriteria" : {
+      "@id" : "http://purl.org/net/def/metashare#EvaluationCriteria"
+    },
+    "ageRangeEnd" : {
+      "@id" : "http://purl.org/net/def/metashare#ageRangeEnd",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "videoGenre" : {
+      "@id" : "http://purl.org/net/def/metashare#videoGenre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sizeWidth" : {
+      "@id" : "http://purl.org/net/def/metashare#sizeWidth",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "CorpusVideoInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusVideoInfo"
+    },
+    "placeOfSecondEducation" : {
+      "@id" : "http://purl.org/net/def/metashare#placeOfSecondEducation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "annotationMode" : {
+      "@id" : "http://purl.org/net/def/metashare#annotationMode",
+      "@type" : "@id"
+    },
+    "textIncludedInImage" : {
+      "@id" : "http://purl.org/net/def/metashare#textIncludedInImage",
+      "@type" : "@id"
+    },
+    "resolutionInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#resolutionInfo",
+      "@type" : "@id"
+    },
+    "recordingPlatformSoftware" : {
+      "@id" : "http://purl.org/net/def/metashare#recordingPlatformSoftware",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "position" : {
+      "@id" : "http://purl.org/net/def/metashare#position",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "LexicalConceptualResourceVideoInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResourceVideoInfo"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "VisualModelling" : {
+      "@id" : "http://purl.org/net/def/metashare#VisualModelling"
+    },
+    "CreationMode" : {
+      "@id" : "http://purl.org/net/def/metashare#CreationMode"
+    },
+    "attributionText" : {
+      "@id" : "http://purl.org/net/def/metashare#attributionText",
+      "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "ExtraTextualInformationUnit" : {
+      "@id" : "http://purl.org/net/def/metashare#ExtraTextualInformationUnit"
+    },
+    "artifactParts" : {
+      "@id" : "http://purl.org/net/def/metashare#artifactParts",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sizePerGeographicCoverage" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerGeographicCoverage",
+      "@type" : "@id"
+    },
+    "languageVarietyName" : {
+      "@id" : "http://purl.org/net/def/metashare#languageVarietyName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "TextClassificationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#TextClassificationInfo"
+    },
+    "lexicalConceptualResourceImageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#lexicalConceptualResourceImageInfo",
+      "@type" : "@id"
+    },
+    "imageClassificationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#imageClassificationInfo",
+      "@type" : "@id"
+    },
+    "capturingDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#capturingDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "FrameNet" : {
+      "@id" : "http://purl.org/net/def/metashare#FrameNet"
+    },
+    "ModalityInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#ModalityInfo"
+    },
+    "useNLPSpecific" : {
+      "@id" : "http://purl.org/net/def/metashare#useNLPSpecific",
+      "@type" : "@id"
+    },
+    "funder" : {
+      "@id" : "http://purl.org/net/def/metashare#funder",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "relationType" : {
+      "@id" : "http://purl.org/net/def/metashare#relationType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "accessTool" : {
+      "@id" : "http://purl.org/net/def/metashare#accessTool",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "RecordingEnvironment" : {
+      "@id" : "http://purl.org/net/def/metashare#RecordingEnvironment"
+    },
+    "MorphosyntacticAnnotation" : {
+      "@id" : "http://purl.org/net/def/metashare#MorphosyntacticAnnotation"
+    },
+    "DiscourseAnnotation" : {
+      "@id" : "http://purl.org/net/def/metashare#DiscourseAnnotation"
+    },
+    "LexicalConceptualResourceImageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResourceImageInfo"
+    },
+    "LingualityType" : {
+      "@id" : "http://purl.org/net/def/metashare#LingualityType"
+    },
+    "corpusTextNgramInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#corpusTextNgramInfo",
+      "@type" : "@id"
+    },
+    "corpusMediaPartInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#corpusMediaPartInfo",
+      "@type" : "@id"
+    },
+    "sensorTechnology" : {
+      "@id" : "http://purl.org/net/def/metashare#sensorTechnology",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "recordingEnvironment" : {
+      "@id" : "http://purl.org/net/def/metashare#recordingEnvironment",
+      "@type" : "@id"
+    },
+    "faceExpressions" : {
+      "@id" : "http://purl.org/net/def/metashare#faceExpressions",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "SemanticAnnotation" : {
+      "@id" : "http://purl.org/net/def/metashare#SemanticAnnotation"
+    },
+    "CapturingDeviceType" : {
+      "@id" : "http://purl.org/net/def/metashare#CapturingDeviceType"
+    },
+    "annotationStandoff" : {
+      "@id" : "http://purl.org/net/def/metashare#annotationStandoff",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "smokingHabits" : {
+      "@id" : "http://purl.org/net/def/metashare#smokingHabits",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "resolutionStandard" : {
+      "@id" : "http://purl.org/net/def/metashare#resolutionStandard",
+      "@type" : "@id"
+    },
+    "sourceChannelName" : {
+      "@id" : "http://purl.org/net/def/metashare#sourceChannelName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "runningEnvironmentDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#runningEnvironmentDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "address" : {
+      "@id" : "http://purl.org/net/def/metashare#address",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "videoFormatInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#videoFormatInfo",
+      "@type" : "@id"
+    },
+    "AudioQualityMeasuresIncluded" : {
+      "@id" : "http://purl.org/net/def/metashare#AudioQualityMeasuresIncluded"
+    },
+    "recordingDeviceType" : {
+      "@id" : "http://purl.org/net/def/metashare#recordingDeviceType",
+      "@type" : "@id"
+    },
+    "ModalityType" : {
+      "@id" : "http://purl.org/net/def/metashare#ModalityType"
+    },
+    "audioClassificationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#audioClassificationInfo",
+      "@type" : "@id"
+    },
+    "extratextualInformation" : {
+      "@id" : "http://purl.org/net/def/metashare#extratextualInformation",
+      "@type" : "@id"
+    },
+    "annotationManual" : {
+      "@id" : "http://purl.org/net/def/metashare#annotationManual",
+      "@type" : "@id"
+    },
+    "ToolServiceType" : {
+      "@id" : "http://purl.org/net/def/metashare#ToolServiceType"
+    },
+    "thingDescription" : {
+      "@id" : "http://purl.org/net/def/metashare#thingDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ForeseenUseInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#ForeseenUseInfo"
+    },
+    "requiredSoftware" : {
+      "@id" : "http://purl.org/net/def/metashare#requiredSoftware",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "characterEncodingInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#characterEncodingInfo",
+      "@type" : "@id"
+    },
+    "staticElementInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#staticElementInfo",
+      "@type" : "@id"
+    },
+    "validationModeDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#validationModeDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "AudioClassificationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#AudioClassificationInfo"
+    },
+    "numberOfTrainedSpeakers" : {
+      "@id" : "http://purl.org/net/def/metashare#numberOfTrainedSpeakers",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "perplexity" : {
+      "@id" : "http://purl.org/net/def/metashare#perplexity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "theoreticModel" : {
+      "@id" : "http://purl.org/net/def/metashare#theoreticModel",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Audience" : {
+      "@id" : "http://purl.org/net/def/metashare#Audience"
+    },
+    "region" : {
+      "@id" : "http://purl.org/net/def/metashare#region",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "otherMedia" : {
+      "@id" : "http://purl.org/net/def/metashare#otherMedia",
+      "@type" : "@id"
+    },
+    "SourceChannel" : {
+      "@id" : "http://purl.org/net/def/metashare#SourceChannel"
+    },
+    "externalRef" : {
+      "@id" : "http://purl.org/net/def/metashare#externalRef",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "annotatedElements" : {
+      "@id" : "http://purl.org/net/def/metashare#annotatedElements",
+      "@type" : "@id"
+    },
+    "MembershipInstitution" : {
+      "@id" : "http://purl.org/net/def/metashare#MembershipInstitution"
+    },
+    "genre" : {
+      "@id" : "http://purl.org/net/def/metashare#genre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CorpusAudio" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusAudio"
+    },
+    "creationStartDate" : {
+      "@id" : "http://purl.org/net/def/metashare#creationStartDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "ModalityAnnotation" : {
+      "@id" : "http://purl.org/net/def/metashare#ModalityAnnotation"
+    },
+    "formalism" : {
+      "@id" : "http://purl.org/net/def/metashare#formalism",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "durationUnit" : {
+      "@id" : "http://purl.org/net/def/metashare#durationUnit"
+    },
+    "modalityTypeDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#modalityTypeDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "lexicalConceptualResourceInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#lexicalConceptualResourceInfo",
+      "@type" : "@id"
+    },
+    "action" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/action"
+    },
+    "lexicalConceptualResourceType" : {
+      "@id" : "http://purl.org/net/def/metashare#lexicalConceptualResourceType",
+      "@type" : "@id"
+    },
+    "membershipInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#membershipInfo",
+      "@type" : "@id"
+    },
+    "fee" : {
+      "@id" : "http://purl.org/net/def/metashare#fee",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "permission" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/permission"
+    },
+    "CorpusAudioInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusAudioInfo"
+    },
+    "MembershipInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#MembershipInfo"
+    },
+    "annotationFormat" : {
+      "@id" : "http://purl.org/net/def/metashare#annotationFormat",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "usageReport" : {
+      "@id" : "http://purl.org/net/def/metashare#usageReport",
+      "@type" : "@id"
+    },
+    "toolServiceSubtype" : {
+      "@id" : "http://purl.org/net/def/metashare#toolServiceSubtype",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "metaShareId" : {
+      "@id" : "http://purl.org/net/def/metashare#metaShareId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "domain" : {
+      "@id" : "http://purl.org/net/def/metashare#domain",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "recorder" : {
+      "@id" : "http://purl.org/net/def/metashare#recorder",
+      "@type" : "@id"
+    },
+    "sizePerImageFormat" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerImageFormat",
+      "@type" : "@id"
+    },
+    "posesPerSubject" : {
+      "@id" : "http://purl.org/net/def/metashare#posesPerSubject",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "resourceAssociatedWith" : {
+      "@id" : "http://purl.org/net/def/metashare#resourceAssociatedWith",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "RelationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#RelationInfo"
+    },
+    "organizationName" : {
+      "@id" : "http://purl.org/net/def/metashare#organizationName",
+      "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "sizePerModality" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerModality",
+      "@type" : "@id"
+    },
+    "geographicCoverageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#geographicCoverageInfo",
+      "@type" : "@id"
+    },
+    "signConvention" : {
+      "@id" : "http://purl.org/net/def/metashare#signConvention",
+      "@type" : "@id"
+    },
+    "modalityType" : {
+      "@id" : "http://purl.org/net/def/metashare#modalityType",
+      "@type" : "@id"
+    },
+    "register" : {
+      "@id" : "http://purl.org/net/def/metashare#register",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "implementationLanguage" : {
+      "@id" : "http://purl.org/net/def/metashare#implementationLanguage",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "LexicalConceptualResourceMediaPart" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResourceMediaPart"
+    },
+    "CharacterEncoding" : {
+      "@id" : "http://purl.org/net/def/metashare#CharacterEncoding"
+    },
+    "Size" : {
+      "@id" : "http://purl.org/net/def/metashare#Size"
+    },
+    "synchronizedWithText" : {
+      "@id" : "http://purl.org/net/def/metashare#synchronizedWithText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "task" : {
+      "@id" : "http://purl.org/net/def/metashare#task",
+      "@type" : "@id"
+    },
+    "operatingSystem" : {
+      "@id" : "http://purl.org/net/def/metashare#operatingSystem",
+      "@type" : "@id"
+    },
+    "evaluationReport" : {
+      "@id" : "http://purl.org/net/def/metashare#evaluationReport",
+      "@type" : "@id"
+    },
+    "scenarioType" : {
+      "@id" : "http://purl.org/net/def/metashare#scenarioType",
+      "@type" : "@id"
+    },
+    "grammaticalPhenomenaCoverage" : {
+      "@id" : "http://purl.org/net/def/metashare#grammaticalPhenomenaCoverage",
+      "@type" : "@id"
+    },
+    "DocumentInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#DocumentInfo"
+    },
+    "organizationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#organizationInfo",
+      "@type" : "@id"
+    },
+    "sizePerAnnotation" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerAnnotation",
+      "@type" : "@id"
+    },
+    "foreseenUseInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#foreseenUseInfo",
+      "@type" : "@id"
+    },
+    "AgeGroup" : {
+      "@id" : "http://purl.org/net/def/metashare#AgeGroup"
+    },
+    "LexicalConceptualResourceAudio" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResourceAudio"
+    },
+    "LanguageDescriptionText" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageDescriptionText"
+    },
+    "Project" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Project"
+    },
+    "ActualUseInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#ActualUseInfo"
+    },
+    "domainInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#domainInfo",
+      "@type" : "@id"
+    },
+    "fidelity" : {
+      "@id" : "http://purl.org/net/def/metashare#fidelity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "SpeakingImpairmentOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#SpeakingImpairmentOfPersons"
+    },
+    "fundingProject" : {
+      "@id" : "http://purl.org/net/def/metashare#fundingProject",
+      "@type" : "@id"
+    },
+    "evaluationMeasure" : {
+      "@id" : "http://purl.org/net/def/metashare#evaluationMeasure",
+      "@type" : "@id"
+    },
+    "annotationModeDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#annotationModeDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "signalEncoding" : {
+      "@id" : "http://purl.org/net/def/metashare#signalEncoding",
+      "@type" : "@id"
+    },
+    "order" : {
+      "@id" : "http://purl.org/net/def/metashare#order",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "TerminologicalResource" : {
+      "@id" : "http://purl.org/net/def/metashare#TerminologicalResource"
+    },
+    "ResourceType" : {
+      "@id" : "http://purl.org/net/def/metashare#ResourceType"
+    },
+    "availabilityStartDate" : {
+      "@id" : "http://purl.org/net/def/metashare#availabilityStartDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "encodingLevel" : {
+      "@id" : "http://purl.org/net/def/metashare#encodingLevel",
+      "@type" : "@id"
+    },
+    "organizationDescription" : {
+      "@id" : "http://purl.org/net/def/metashare#organizationDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "FundingType" : {
+      "@id" : "http://purl.org/net/def/metashare#FundingType"
+    },
+    "AnnotatedElements" : {
+      "@id" : "http://purl.org/net/def/metashare#AnnotatedElements"
+    },
+    "handManipulation" : {
+      "@id" : "http://purl.org/net/def/metashare#handManipulation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "duration" : {
+      "@id" : "http://purl.org/net/def/metashare#duration"
+    },
+    "ContactPerson" : {
+      "@id" : "http://purl.org/net/def/metashare#ContactPerson"
+    },
+    "TextIncludedInImage" : {
+      "@id" : "http://purl.org/net/def/metashare#TextIncludedInImage"
+    },
+    "LanguageVarietyInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageVarietyInfo"
+    },
+    "colourSpace" : {
+      "@id" : "http://purl.org/net/def/metashare#colourSpace",
+      "@type" : "@id"
+    },
+    "sizePerAudioClassification" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerAudioClassification",
+      "@type" : "@id"
+    },
+    "sizePerLanguage" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerLanguage",
+      "@type" : "@id"
+    },
+    "issn" : {
+      "@id" : "http://purl.org/net/def/metashare#issn",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "OtherMedia" : {
+      "@id" : "http://purl.org/net/def/metashare#OtherMedia"
+    },
+    "MetadataInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#MetadataInfo"
+    },
+    "ColourSpace" : {
+      "@id" : "http://purl.org/net/def/metashare#ColourSpace"
+    },
+    "TextNumericalFormatInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#TextNumericalFormatInfo"
+    },
+    "imageGenre" : {
+      "@id" : "http://purl.org/net/def/metashare#imageGenre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "audioGenre" : {
+      "@id" : "http://purl.org/net/def/metashare#audioGenre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "speechInfluences" : {
+      "@id" : "http://purl.org/net/def/metashare#speechInfluences",
+      "@type" : "@id"
+    },
+    "segmentationLevel" : {
+      "@id" : "http://purl.org/net/def/metashare#segmentationLevel",
+      "@type" : "@id"
+    },
+    "relatedResource" : {
+      "@id" : "http://purl.org/net/def/metashare#relatedResource",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sexOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#sexOfPersons",
+      "@type" : "@id"
+    },
+    "ToolService" : {
+      "@id" : "http://purl.org/net/def/metashare#ToolService"
+    },
+    "GrammaticalPhenomenaCoverage" : {
+      "@id" : "http://purl.org/net/def/metashare#GrammaticalPhenomenaCoverage"
+    },
+    "mediaType" : {
+      "@id" : "http://purl.org/net/def/metashare#mediaType",
+      "@type" : "@id"
+    },
+    "UseNLPSpecific" : {
+      "@id" : "http://purl.org/net/def/metashare#UseNLPSpecific"
+    },
+    "WordNet" : {
+      "@id" : "http://purl.org/net/def/metashare#WordNet"
+    },
+    "audioFormatInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#audioFormatInfo",
+      "@type" : "@id"
+    },
+    "sizePerDomain" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerDomain",
+      "@type" : "@id"
+    },
+    "LanguageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageInfo"
+    },
+    "zipCode" : {
+      "@id" : "http://purl.org/net/def/metashare#zipCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "dialectAccent" : {
+      "@id" : "http://purl.org/net/def/metashare#dialectAccent",
+      "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "languageDescriptionType" : {
+      "@id" : "http://purl.org/net/def/metashare#languageDescriptionType",
+      "@type" : "@id"
+    },
+    "validationTool" : {
+      "@id" : "http://purl.org/net/def/metashare#validationTool",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "VideoClassificationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#VideoClassificationInfo"
+    },
+    "validator" : {
+      "@id" : "http://purl.org/net/def/metashare#validator",
+      "@type" : "@id"
+    },
+    "intraannotatorAgreement" : {
+      "@id" : "http://purl.org/net/def/metashare#intraannotatorAgreement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "AudioSizeInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#AudioSizeInfo"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "AgeOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#AgeOfPersons"
+    },
+    "AnnotationMode" : {
+      "@id" : "http://purl.org/net/def/metashare#AnnotationMode"
+    },
+    "headMovement" : {
+      "@id" : "http://purl.org/net/def/metashare#headMovement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CorpusTextInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#CorpusTextInfo"
+    },
+    "LanguageDescription" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageDescription"
+    },
+    "ResolutionStandard" : {
+      "@id" : "http://purl.org/net/def/metashare#ResolutionStandard"
+    },
+    "synchronizedWithVideo" : {
+      "@id" : "http://purl.org/net/def/metashare#synchronizedWithVideo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "EncodingLevel" : {
+      "@id" : "http://purl.org/net/def/metashare#EncodingLevel"
+    },
+    "originalMetadataLink" : {
+      "@id" : "http://purl.org/net/def/metashare#originalMetadataLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "duty" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/duty"
+    },
+    "AudioFormatInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#AudioFormatInfo"
+    },
+    "handArmMovement" : {
+      "@id" : "http://purl.org/net/def/metashare#handArmMovement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "lexicalConceptualResourceTextInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#lexicalConceptualResourceTextInfo",
+      "@type" : "@id"
+    },
+    "speechItems" : {
+      "@id" : "http://purl.org/net/def/metashare#speechItems",
+      "@type" : "@id"
+    },
+    "LexicalConceptualResourceVideo" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResourceVideo"
+    },
+    "distributionRightsHolder" : {
+      "@id" : "http://purl.org/net/def/metashare#distributionRightsHolder",
+      "@type" : "@id"
+    },
+    "broaderTransitive" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broaderTransitive"
+    },
+    "ParticipantInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#ParticipantInfo"
+    },
+    "evaluationCriteria" : {
+      "@id" : "http://purl.org/net/def/metashare#evaluationCriteria",
+      "@type" : "@id"
+    },
+    "replaces" : {
+      "@id" : "http://purl.org/dc/terms/replaces"
+    },
+    "VideoFormatInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#VideoFormatInfo"
+    },
+    "eventDescription" : {
+      "@id" : "http://purl.org/net/def/metashare#eventDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sizePerAudioFormat" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerAudioFormat",
+      "@type" : "@id"
+    },
+    "alias" : {
+      "@id" : "http://purl.org/net/def/metashare#alias",
+      "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "speechGenre" : {
+      "@id" : "http://purl.org/net/def/metashare#speechGenre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ConformanceToStandardsBestPractices" : {
+      "@id" : "http://purl.org/net/def/metashare#ConformanceToStandardsBestPractices"
+    },
+    "lexicalConceptualResourceVideoInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#lexicalConceptualResourceVideoInfo",
+      "@type" : "@id"
+    },
+    "corpusAudioInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#corpusAudioInfo",
+      "@type" : "@id"
+    },
+    "baseItem" : {
+      "@id" : "http://purl.org/net/def/metashare#baseItem",
+      "@type" : "@id"
+    },
+    "annotationStartDate" : {
+      "@id" : "http://purl.org/net/def/metashare#annotationStartDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "modalityInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#modalityInfo",
+      "@type" : "@id"
+    },
+    "validationExtentDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#validationExtentDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "MultilingualityType" : {
+      "@id" : "http://purl.org/net/def/metashare#MultilingualityType"
+    },
+    "ByteOrder" : {
+      "@id" : "http://purl.org/net/def/metashare#ByteOrder"
+    },
+    "size" : {
+      "@id" : "http://purl.org/net/def/metashare#size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "extraTextualInformationUnit" : {
+      "@id" : "http://purl.org/net/def/metashare#extraTextualInformationUnit",
+      "@type" : "@id"
+    },
+    "mimeType" : {
+      "@id" : "http://purl.org/net/def/metashare#mimeType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "landscapeParts" : {
+      "@id" : "http://purl.org/net/def/metashare#landscapeParts",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "imageFormatInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#imageFormatInfo",
+      "@type" : "@id"
+    },
+    "audience" : {
+      "@id" : "http://purl.org/net/def/metashare#audience",
+      "@type" : "@id"
+    },
+    "hearingImpairment" : {
+      "@id" : "http://purl.org/net/def/metashare#hearingImpairment",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "audioQualityMeasuresIncluded" : {
+      "@id" : "http://purl.org/net/def/metashare#audioQualityMeasuresIncluded",
+      "@type" : "@id"
+    },
+    "sizePerImageClassification" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerImageClassification",
+      "@type" : "@id"
+    },
+    "compressionName" : {
+      "@id" : "http://purl.org/net/def/metashare#compressionName",
+      "@type" : "@id"
+    },
+    "nonSpeechItems" : {
+      "@id" : "http://purl.org/net/def/metashare#nonSpeechItems",
+      "@type" : "@id"
+    },
+    "corpusImageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#corpusImageInfo",
+      "@type" : "@id"
+    },
+    "ValidationExtent" : {
+      "@id" : "http://purl.org/net/def/metashare#ValidationExtent"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "vocalTractConditions" : {
+      "@id" : "http://purl.org/net/def/metashare#vocalTractConditions",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sizePerTimeCoverage" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerTimeCoverage",
+      "@type" : "@id"
+    },
+    "LanguageDescriptionVideo" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageDescriptionVideo"
+    },
+    "resourceType" : {
+      "@id" : "http://purl.org/net/def/metashare#resourceType",
+      "@type" : "@id"
+    },
+    "License" : {
+      "@id" : "http://purl.org/net/def/metashare#License"
+    },
+    "quality" : {
+      "@id" : "http://purl.org/net/def/metashare#quality",
+      "@type" : "@id"
+    },
+    "originalSource" : {
+      "@id" : "http://purl.org/net/def/metashare#originalSource",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "lingualityType" : {
+      "@id" : "http://purl.org/net/def/metashare#lingualityType",
+      "@type" : "@id"
+    },
+    "LexicalConceptualResourceTextInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResourceTextInfo"
+    },
+    "DomainInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#DomainInfo"
+    },
+    "colourDepth" : {
+      "@id" : "http://purl.org/net/def/metashare#colourDepth",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "placeOfChildhood" : {
+      "@id" : "http://purl.org/net/def/metashare#placeOfChildhood",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sizePerValidation" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerValidation",
+      "@type" : "@id"
+    },
+    "documentInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#documentInfo",
+      "@type" : "@id"
+    },
+    "languageVarietyType" : {
+      "@id" : "http://purl.org/net/def/metashare#languageVarietyType",
+      "@type" : "@id"
+    },
+    "validationExtent" : {
+      "@id" : "http://purl.org/net/def/metashare#validationExtent",
+      "@type" : "@id"
+    },
+    "outputInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#outputInfo",
+      "@type" : "@id"
+    },
+    "sizePerTextClassification" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerTextClassification",
+      "@type" : "@id"
+    },
+    "projectName" : {
+      "@id" : "http://purl.org/net/def/metashare#projectName",
+      "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "visualModelling" : {
+      "@id" : "http://purl.org/net/def/metashare#visualModelling",
+      "@type" : "@id"
+    },
+    "Naturality" : {
+      "@id" : "http://purl.org/net/def/metashare#Naturality"
+    },
+    "metadataSource" : {
+      "@id" : "http://purl.org/net/def/metashare#metadataSource",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "toolDocumentationType" : {
+      "@id" : "http://purl.org/net/def/metashare#toolDocumentationType",
+      "@type" : "@id"
+    },
+    "MediaPart" : {
+      "@id" : "http://purl.org/net/def/metashare#MediaPart"
+    },
+    "annotator" : {
+      "@id" : "http://purl.org/net/def/metashare#annotator",
+      "@type" : "@id"
+    },
+    "updateFrequency" : {
+      "@id" : "http://purl.org/net/def/metashare#updateFrequency",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ScenarioType" : {
+      "@id" : "http://purl.org/net/def/metashare#ScenarioType"
+    },
+    "use" : {
+      "@id" : "http://purl.org/net/def/metashare#use",
+      "@type" : "@id"
+    },
+    "creationMode" : {
+      "@id" : "http://purl.org/net/def/metashare#creationMode",
+      "@type" : "@id"
+    },
+    "InputInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#InputInfo"
+    },
+    "evaluationType" : {
+      "@id" : "http://purl.org/net/def/metashare#evaluationType",
+      "@type" : "@id"
+    },
+    "LexicalConceptualResourceText" : {
+      "@id" : "http://purl.org/net/def/metashare#LexicalConceptualResourceText"
+    },
+    "LicenceInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LicenceInfo"
+    },
+    "ageOfPersons" : {
+      "@id" : "http://purl.org/net/def/metashare#ageOfPersons",
+      "@type" : "@id"
+    },
+    "creationTool" : {
+      "@id" : "http://purl.org/net/def/metashare#creationTool",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ExtratextualInformation" : {
+      "@id" : "http://purl.org/net/def/metashare#ExtratextualInformation"
+    },
+    "sizePerTextFormat" : {
+      "@id" : "http://purl.org/net/def/metashare#sizePerTextFormat",
+      "@type" : "@id"
+    },
+    "NoiseLevel" : {
+      "@id" : "http://purl.org/net/def/metashare#NoiseLevel"
+    },
+    "runningTime" : {
+      "@id" : "http://purl.org/net/def/metashare#runningTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "samplesLocation" : {
+      "@id" : "http://purl.org/net/def/metashare#samplesLocation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Availability" : {
+      "@id" : "http://purl.org/net/def/metashare#Availability"
+    },
+    "textClassificationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#textClassificationInfo",
+      "@type" : "@id"
+    },
+    "validationReport" : {
+      "@id" : "http://purl.org/net/def/metashare#validationReport",
+      "@type" : "@id"
+    },
+    "TextIncludedInVideo" : {
+      "@id" : "http://purl.org/net/def/metashare#TextIncludedInVideo"
+    },
+    "sourceChannelDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#sourceChannelDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "languageDescriptionImageInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#languageDescriptionImageInfo",
+      "@type" : "@id"
+    },
+    "membershipInstitution" : {
+      "@id" : "http://purl.org/net/def/metashare#membershipInstitution",
+      "@type" : "@id"
+    },
+    "SpeechItems" : {
+      "@id" : "http://purl.org/net/def/metashare#SpeechItems"
+    },
+    "validated" : {
+      "@id" : "http://purl.org/net/def/metashare#validated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Task" : {
+      "@id" : "http://purl.org/net/def/metashare#Task"
+    },
+    "executionLocation" : {
+      "@id" : "http://purl.org/net/def/metashare#executionLocation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "prohibition" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/prohibition"
+    },
+    "linkToOtherMediaInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#linkToOtherMediaInfo",
+      "@type" : "@id"
+    },
+    "recordingQuality" : {
+      "@id" : "http://purl.org/net/def/metashare#recordingQuality",
+      "@type" : "@id"
+    },
+    "durationOfAudioInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#durationOfAudioInfo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "SpeechAnnotation" : {
+      "@id" : "http://purl.org/net/def/metashare#SpeechAnnotation"
+    },
+    "LanguageDescriptionInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageDescriptionInfo"
+    },
+    "textNumericalFormatInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#textNumericalFormatInfo",
+      "@type" : "@id"
+    },
+    "weight" : {
+      "@id" : "http://purl.org/net/def/metashare#weight",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "CapturingEnvironment" : {
+      "@id" : "http://purl.org/net/def/metashare#CapturingEnvironment"
+    },
+    "ConversationalType" : {
+      "@id" : "http://purl.org/net/def/metashare#ConversationalType"
+    },
+    "toolServiceType" : {
+      "@id" : "http://purl.org/net/def/metashare#toolServiceType",
+      "@type" : "@id"
+    },
+    "SpeechInfluences" : {
+      "@id" : "http://purl.org/net/def/metashare#SpeechInfluences"
+    },
+    "OperatingSystem" : {
+      "@id" : "http://purl.org/net/def/metashare#OperatingSystem"
+    },
+    "projectID" : {
+      "@id" : "http://purl.org/net/def/metashare#projectID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "NonSpeechItems" : {
+      "@id" : "http://purl.org/net/def/metashare#NonSpeechItems"
+    },
+    "TextFormatInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#TextFormatInfo"
+    },
+    "bodyParts" : {
+      "@id" : "http://purl.org/net/def/metashare#bodyParts",
+      "@type" : "@id"
+    },
+    "RecordingDeviceType" : {
+      "@id" : "http://purl.org/net/def/metashare#RecordingDeviceType"
+    },
+    "ValidationType" : {
+      "@id" : "http://purl.org/net/def/metashare#ValidationType"
+    },
+    "ComputationalLexicon" : {
+      "@id" : "http://purl.org/net/def/metashare#ComputationalLexicon"
+    },
+    "multilingualityTypeDetails" : {
+      "@id" : "http://purl.org/net/def/metashare#multilingualityTypeDetails",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "personDescription" : {
+      "@id" : "http://purl.org/net/def/metashare#personDescription",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "RecordingQuality" : {
+      "@id" : "http://purl.org/net/def/metashare#RecordingQuality"
+    },
+    "languageDescriptionMediaPartInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#languageDescriptionMediaPartInfo",
+      "@type" : "@id"
+    },
+    "LanguageVarietyType" : {
+      "@id" : "http://purl.org/net/def/metashare#LanguageVarietyType"
+    },
+    "faceViews" : {
+      "@id" : "http://purl.org/net/def/metashare#faceViews",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "constraint" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/constraint"
+    },
+    "interpolated" : {
+      "@id" : "http://purl.org/net/def/metashare#interpolated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Set" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/Set"
+    },
+    "annotationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#annotationInfo",
+      "@type" : "@id"
+    },
+    "Ontology" : {
+      "@id" : "http://purl.org/net/def/metashare#Ontology"
+    },
+    "purpose" : {
+      "@id" : "http://www.w3.org/ns/odrl/2/purpose"
+    },
+    "validationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#validationInfo",
+      "@type" : "@id"
+    },
+    "originalMetadataSchema" : {
+      "@id" : "http://purl.org/net/def/metashare#originalMetadataSchema",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "authenticated" : {
+      "@id" : "http://purl.org/net/def/metashare#authenticated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "relationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#relationInfo",
+      "@type" : "@id"
+    },
+    "educationLevel" : {
+      "@id" : "http://purl.org/net/def/metashare#educationLevel",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "smoothing" : {
+      "@id" : "http://purl.org/net/def/metashare#smoothing",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CompatibleLexiconType" : {
+      "@id" : "http://purl.org/net/def/metashare#CompatibleLexiconType"
+    },
+    "attachedLexiconPosition" : {
+      "@id" : "http://purl.org/net/def/metashare#attachedLexiconPosition",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ValidationInfo" : {
+      "@id" : "http://purl.org/net/def/metashare#ValidationInfo"
+    }
+  }
+}
